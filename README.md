@@ -1,4 +1,5 @@
 Corpse Party 2 Dead Patient
+
 Traduzione Italiana di Corpse Party 2 - Dead Patient a cura di CTH Translations.
 
 
