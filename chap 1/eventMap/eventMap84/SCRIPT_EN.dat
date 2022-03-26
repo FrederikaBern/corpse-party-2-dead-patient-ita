@@ -1,0 +1,11 @@
+SCRIPT1,0
+場所移動:■処理エリア２F,26,27,OFF,左,そのまま,そのまま,なし
+●
+END_SCRIPT
+SCRIPT2,0
+診察カード:21
+●
+END_SCRIPT
+SCRIPT3,0
+●
+END_SCRIPT
