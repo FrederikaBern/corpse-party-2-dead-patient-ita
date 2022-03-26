@@ -1,0 +1,280 @@
+SCRIPT1,0
+ローカルフラグ分岐:32:
+▼:ON
+ローカルフラグ:32:,OFF,0
+ＳＥ:CORP2-SE021.wav,ON,OFF
+●
+▼:OFF
+ローカルフラグ:32:,ON,0
+ＳＥ:CORP2-SE022.wav,ON,OFF
+●
+分岐終了
+●
+END_SCRIPT
+SCRIPT2,0
+文字表示:C'e' un messaggio rosso sullo schermo.,,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT3,0
+文字表示:La porta e' chiusa elettronicamente.,L'unico modo per aprirla e',utilizzare dispositivo sul muro accanto.,なし,1
+●
+END_SCRIPT
+SCRIPT3,1
+ＢＧＭ:CORP2-BGM008.wav,OFF,ON,ON,100,100
+場所移動:■処理エリア２F,14,29,OFF,上,そのまま,上,なし
+●
+END_SCRIPT
+SCRIPT3,2
+ＢＧＭ:CORP2-BGM008.wav,OFF,ON,ON,100,100
+場所移動:■処理エリア２F,14,29,OFF,上,そのまま,上,なし
+●
+END_SCRIPT
+SCRIPT4,0
+文字表示:C'e' un qualche tipo di grafico.,I numeri aumentano e diminuiscono rapidamente., Un po' troppo per significare qualcosa di buono...,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT5,0
+文字表示:Ci sono diversi strumenti chirurgici qui|,tra cui un paio di pinze.,,なし,1,OFF,OFF,OFF,0,OFF
+ローカルフラグ分岐:8:鉗子を取得
+▼:ON
+●
+▼:OFF
+ローカルフラグ:8:鉗子を取得,ON,0
+アイテム取得:手術用鉗子,ON
+ローカルフラグ:5:アイテムを取得,ON
+●
+分岐終了
+●
+END_SCRIPT
+SCRIPT5,1
+●
+END_SCRIPT
+SCRIPT6,0
+ＢＧＭ:CORP2-BGM010-1.wav,ON,ON,OFF,0,100
+ローカルフラグ:0:初期設定,ON
+グラフィック変更:0,ayame_normal,下,そのまま,OFF,0,5,なし,0,0,1
+●
+END_SCRIPT
+SCRIPT6,1
+●
+END_SCRIPT
+SCRIPT7,0
+場所移動:■廊下１Ｆ（暗）,113,42,OFF,そのまま,そのまま,上,なし,on
+●
+END_SCRIPT
+SCRIPT8,0
+文字表示:E' un sistema di sicurezza progettato per sbloccare la porta,solo nel momento in cui una ID card valida verra' scansionata.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Tuttavia| il cavo collegato e' tagliato.,Non riceve elettricita'.,,なし,1,OFF,OFF,OFF,0,OFF
+時間待ち:7,CLOSE
+使用アイテム分岐:手術用鉗子
+▼:ON
+バストショット:bs_ayame_a01_a01.tga,左,OFF
+文字表示:Ayame:Se riuscissi a mettere la pinza tra i due,potrei in qualche modo riscire a collegarli...,,なし,1,OFF,OFF,OFF,0,OFF
+バストショット:bs_ayame_a01_j01.tga,左,OFF
+カメラ振動:ON,2
+ＳＥ:CORP2-SE007.wav,ON,OFF
+フェード:イン,2,水色
+文字表示:Ayame:AAGH!!,,,VOICE/se/se_ayame/se_ayame_010.wav,100
+文字表示:L'elettricita' passa attraverso la pinza| causandomi una,notevole scossa elettrica. E' molto| anzi| troppo pericoloso,farlo a mani nude!,なし,1,OFF,OFF,OFF,0,OFF
+ローカルフラグ:2:感電した。,ON
+●
+▼:OFF
+使用アイテム分岐:ゴム手袋
+▼:ON
+ローカルフラグ分岐:2:感電した。
+▼:ON
+バストショット:bs_ayame_a01_a01.tga,左,OFF
+文字表示:Ayame:Se indosso questi guanti di gomma prima di utilizzare,la pinza| dovrei riuscire a proteggermi,da eventuali scosse elettriche...,なし,1
+グラフィック変更:このイベント,27,7,そのまま,OFF,1,3,なし,1,0,2
+ＳＥ:CORP2-SE011.wav,ON,OFF
+フェード:イン,2,白
+ローカルフラグ:3:,ON,0,OFF
+アイテム取得:手術用鉗子,OFF
+アイテム取得:ゴム手袋,OFF
+●
+▼:OFF
+バストショット:bs_ayame_a01_a01.tga,左,OFF
+文字表示:Ayame:Mi chedo se possa usare qualcosa per connettere,le due estremita' di questo cavo...,,VOICE/se/se_ayame/se_ayame_007.wav,100
+●
+分岐終了
+●
+▼:OFF
+バストショット:bs_ayame_a01_a01.tga,左,OFF
+文字表示:Ayame:Mi chedo se possa usare qualcosa per connettere,le due estremita' di questo cavo...,,VOICE/se/se_ayame/se_ayame_007.wav,100
+●
+分岐終了
+●
+分岐終了
+●
+END_SCRIPT
+SCRIPT8,1
+使用アイテム分岐:ＩＤカード
+▼:ON
+ＳＥ:CORP2-SE010.wav,ON,OFF
+キャラアニメ:3,24,1
+ローカルフラグ:4:エアロック解除,ON,0
+アイテム取得:ＩＤカード,OFF
+目的表示:
+●
+▼:OFF
+文字表示:Il collegameto e' stato completato. Il lettore di card,ora e' attivo| in attesa di un input.,,なし,1
+●
+分岐終了
+●
+END_SCRIPT
+SCRIPT9,0
+文字表示:C'e' un grafico che gira sul monitor| pero' non e' molto,chiaro cosa vogliano dire tutti quei numeri,intorno ad esso.,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT10,0
+●
+END_SCRIPT
+SCRIPT11,0
+文字表示:C'e' una piccola chiave sulla sedia leggermente,luccicante che risplende nell'oscurita' della stanza.,,なし,1,OFF,OFF,OFF,0,OFF
+アイテム取得:小さなカギ,ON
+ローカルフラグ:5:アイテムを取得,ON
+ローカルフラグ:7:小さなカギを入手,ON
+●
+END_SCRIPT
+SCRIPT11,1
+●
+END_SCRIPT
+SCRIPT12,0
+文字表示:C'e' una cartella clinica con una nota allegata ad essa.,C'e' il nome e la fotografia di un paziente.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Vuoi leggere la cartella clinica?,,,なし,1,OFF,OFF,OFF,0,OFF
+選択肢:Si,No
+▼:Si
+時間待ち:2,CLOSE
+フェード:イン,30,白
+ＢＧＭ:CORP2-BGM010-2.wav,OFF,ON,ON,100,100
+ＳＥ:CORP2-SE017.wav,ON,OFF
+グラフィック変更:このイベント,28,7,そのまま,OFF,2,3,なし,1,0,2
+時間待ち:2,CLOSE
+グラフィック変更:このイベント,30,7,そのまま,OFF,2,3,なし,1,0,2
+時間待ち:30,CLOSE
+バストショット:bs_ayame_a01_a01.tga,左,OFF
+文字表示:Ayame:Questa... Questa sono io!,,,VOICE/se/se_ayame/se_ayame_004.wav,100
+時間待ち:20,OPEN
+文字表示:Ayame:Ayame... Itou...,,,なし,1
+時間待ち:40,OPEN
+フェード:イン,3,白
+文字表示:Ayame:Ayame...? Si| giusto!,Questo e' il mio nome!,,VOICE/se/se_ayame/se_ayame_005.wav,100
+時間待ち:20,CLOSE
+ＳＥ:CORP2-SE017.wav,ON,OFF
+時間待ち:2,CLOSE
+グラフィック変更:このイベント,28,7,そのまま,OFF,2,3,なし,1,0,2
+時間待ち:2,CLOSE
+グラフィック変更:このイベント,18,0,そのまま,OFF,2,3,なし,1,0,2
+時間待ち:20,OPEN
+イベント移動:0,190c,下,遅い,ON
+時間待ち:20,OPEN
+フェード:イン,20,白
+ＳＥ:CORP2-SE_K_SHOCK001.wav,ON,OFF
+文字表示:Ayame:Il mio nome e' Ayame Itou.,Finalmente ricordo!,,,100
+バストショット:なし,左,OFF
+時間待ち:10,OPEN
+音声再生:VOICE/se/se_ayame/se_ayame_003.wav,0,100
+イベント移動:0,190d,下,遅い,ON
+バストショット:なし,左,OFF
+時間待ち:40,CLOSE
+文字表示:C'e' una ID card dentro il fascicolo.,,,なし,100
+アイテム取得:ＩＤカード,ON
+ローカルフラグ:5:アイテムを取得,ON
+時間待ち:15,CLOSE
+ＢＧＭ:CORP2-BGM010-2.wav,ON,ON,ON,100,100
+時間待ち:6,CLOSE
+バストショット:bs_ayame_a01_a01.tga,左,OFF
+文字表示:Ayame:Una ID card...,,,なし,1,OFF,OFF,OFF,0,OFF
+バストショット:なし,左,OFF
+時間待ち:6,CLOSE
+フェード:イン,30,黒
+フラグ:192:最初：カルテを見つけた,ON
+●
+▼:No
+フェード:イン,10,黒
+●
+選択終了
+●
+END_SCRIPT
+SCRIPT12,1
+文字表示:Non sembra esserci nient'altro,di interessante qui.,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT13,0
+使用アイテム分岐:小さなカギ
+▼:ON
+ＳＥ:CORP2-SE016.wav,ON,OFF
+文字表示:Hai usato la piccola chiave per aprire,gli sportelli dell'armadio.,,,なし,1,OFF,OFF,OFF,0,OFF
+アイテム取得:小さなカギ,OFF
+時間待ち:3,CLOSE
+ＳＥ:CORP2-SE018.wav,ON,OFF
+グラフィック変更:このイベント,28,10,OFF,ON,2,3,なし,1,0,2
+時間待ち:3,CLOSE
+グラフィック変更:このイベント,30,10,OFF,ON,2,3,なし,1,0,2
+時間待ち:3,CLOSE
+文字表示:L'interno e' pieno di oggetti chirurgici.,Tra loro ci sono diverse coppie di guanti di gomma sterili.,,なし,1,OFF,OFF,OFF,0,OFF
+アイテム取得:ゴム手袋,ON
+ローカルフラグ:1:ゴム手袋を手に入れた,ON
+時間待ち:3,CLOSE
+ＳＥ:CORP2-SE018.wav,ON,OFF
+グラフィック変更:このイベント,28,10,OFF,ON,2,3,なし,1,0,2
+時間待ち:3,CLOSE
+グラフィック変更:このイベント,16,1,OFF,ON,2,3,なし,1,0,2
+時間待ち:3,CLOSE
+ローカルフラグ:1:戸棚を開けた,ON,0
+●
+▼:OFF
+文字表示:Gli sportelli dell'armadietto sono chiusi per bene.,,,なし,1,OFF,OFF,OFF,0,OFF
+バストショット:bs_ayame_a01_b01.tga,左,OFF
+文字表示:Ayame:Mi chiedo se si possano aprire...,,,VOICE/se/se_ayame/se_ayame_003.wav,100
+●
+分岐終了
+●
+END_SCRIPT
+SCRIPT13,1
+文字表示:L'interno dell'armadio e' pieno di strumenti chirurgici.,Tuttavia| non c'e' altro che vale,la pena prendere.,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT14,0
+●
+END_SCRIPT
+SCRIPT14,1
+●
+END_SCRIPT
+SCRIPT15,0
+診察カード:3
+●
+END_SCRIPT
+SCRIPT16,0
+モノローグ:Premi il tasto #1| poi usa,i tasti direzionali per visualizzare e selezionare,gli oggetti in tuo possesso.,なし
+モノローグ:Per usare un oggetto| selezionalo attraverso l'apposito menu; verra',posto nella mano di Ayame. In seguito| lo usera' automaticamente,quando interagira' con l'oggetto o la persona corrispondente.,なし
+ローカルフラグ:6:アイテム説明完了,ON,0
+●
+END_SCRIPT
+SCRIPT16,1
+●
+END_SCRIPT
+SCRIPT17,0
+●
+END_SCRIPT
+SCRIPT18,0
+キャラクター移動:0,←,OFF,中,ON
+キャラアニメ:このイベント,112,1,0
+文字表示:Non sembra esserci molto all'interno| ma e' grande,abbstanza per una persona| quindi potrebbe essere, potenzialmente un utile nascondiglio in casi di emergenza.,なし,100
+キャラアニメ:このイベント,112,3,0
+ＳＥ:CORP2-SE050.wav,ON,OFF
+キャラアニメ:このイベント,112,0,0
+●
+END_SCRIPT
+SCRIPT19,0
+●
+END_SCRIPT
+SCRIPT20,0
+●
+END_SCRIPT
+SCRIPT20,1
+●
+END_SCRIPT
+SCRIPT20,2
+●
+END_SCRIPT
