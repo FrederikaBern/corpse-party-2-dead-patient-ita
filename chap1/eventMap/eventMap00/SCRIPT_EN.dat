@@ -1,0 +1,42 @@
+SCRIPT1,0
+�O���t�B�b�N�ύX:0,�Ȃ�,��,���̂܂�,OFF,0,0,�Ȃ�,0,0,0
+�����\��:'We need a cross-section.',,,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:'We also need the organs in her chest|,so just take one of her head.',,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:'Do it quickly.',,,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:(Uhh...),,,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:I can't...move?,My body's fast asleep| but,my brain's still active...,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:'Unn...gh...',I made a sound -- or at least I think I did.,I couldn't be sure if it had actually left my mouth.,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:'Hey| she's starting to wake up. Are you,sure the N20 concentration isn't dropping?',,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:'No| it's still over 50%.',,,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:'Fine. Then raise it.',,,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:'Her muscles are relaxed enough as it is.,Any more could put her life in danger.',,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:The blood vessels in the whites of my eyes were filling,with blood and expanding so fast that it felt like they,were going to burst.,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:The pain was so intense that I wanted nothing more than,the release of a deep scream| yet my lungs weren't,cooperating. Try as I might| I could barely even squeak.,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:I could feel my consciousness slipping,away from me...,,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:Aaah! AAAAH!! Cross-section?!,I can't lose consciousness now!,,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:Help me! Someone! Anyone!,,,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:All I could see before my eyes was white|,as I slipped into the most unrestful sleep,imaginable.,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�����\��:How much time passed before I regained consciousness|,I couldn't say. But when I awoke| the place that I,found myself in couldn't have been any less normal...,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+���[�J���t���O:0:�I�[�v�j���O�I��,ON
+�ꏊ�ړ�:��p���i�E�o�P�j,19,18,OFF,���̂܂�,7,��,�Ȃ�
+��
+END_SCRIPT
+SCRIPT1,1
+��
+END_SCRIPT
+SCRIPT2,0
+�����\��:Desideri vedere il prologo?,(La seguente traduzione e' stata realizzata,da Beyond The Horizon),,,,�Ȃ�,1,OFF,OFF,OFF,0,OFF
+�I����:Si,No
+��:Si
+�ꏊ�ړ�:�v�����[�O,3,3,OFF,���̂܂�,���̂܂�,��,�Ȃ�,off
+��
+��:No
+�ꏊ�ړ�:����p���i�E�o�j,20,18,OFF,���̂܂�,7,��,�Ȃ�,on
+��
+�I���I��
+��
+END_SCRIPT
+SCRIPT3,0
+�t���O:65:#7-1-2������,ON,0
+��
+END_SCRIPT

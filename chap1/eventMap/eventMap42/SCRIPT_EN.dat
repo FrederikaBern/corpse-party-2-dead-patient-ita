@@ -1,0 +1,338 @@
+SCRIPT1,0
+CT室へ入ると無人。しかしMRI室への扉の向こうで声が聞こえる。
+
+智久「あ゛ぁぁああ゛ーーーーーッ！！」（音声のみ）
+//※精神病患者のように奇声
+智久「ううぅ、ううぅぅッ！！！」（音声のみ）
+//※裏声奇声
+智久「悪くない！　悪くない！！」（音声のみ）
+//※裏声奇声
+//※↑４つ繋げてループ、MRI室への扉でポイントSE。
+
+扉に手をかけるとイベント進行
+
+文字表示::SE: Sound of grabbing a door's handle.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Watch ou--,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::,,,なし,1,OFF,OFF,OFF,0,OFF
+ガタガタガタ！と激しく扉を揺さぶり、男が勢い良く引き開け（横スライド）る。
+
+あやめ「ひきゅっ！」（※音声のみ）
+律子「きゃっ！」（※音声のみ）
+
+あやめと律子はとっさに離れる、と同時に学生服の男が飛び出してきて、
+CT室に転がり込んでくる。中央で転ぶ。
+
+文字表示:*:Eeek! Eeek! Eeeeeek!,,,なし,1,OFF,OFF,OFF,0,OFF
+男はうずくまり頭を抱える。
+
+文字表示:*:I... I... I'm doing nothing wrong!,,,なし,1,OFF,OFF,OFF,0,OFF
+男を見てあやめ、
+
+文字表示:Ayame:Sh-Shibai...?,,,なし,1,OFF,OFF,OFF,0,OFF
+一歩近寄るあやめ。
+
+ビクンとし、頭を抱えたまま首を向ける学生服の男。
+
+文字表示:Tomohisa:...Itou?,,,なし,1,OFF,OFF,OFF,0,OFF
+涙と鼻水でくしゃくしゃのまま答える、
+学生服の男、司馬狗智久。あやめのクラスメイト、副委員長だった。
+
+あやめは近寄ろうとするが、智久はすぐに跳ね起きて
+また錯乱状態に戻る。
+
+文字表示:Tomohisa:Ah... Ah... Aaaaah!,,,なし,1,OFF,OFF,OFF,0,OFF
+そのまま駆け出し、CT室入り口から飛び出して走り去ってしまう。
+
+智久「ひいぃぃィィィーーィィィ！！」（※遠ざかってゆく、音声のみ）
+●
+END_SCRIPT
+SCRIPT2,0
+●
+END_SCRIPT
+SCRIPT3,0
+キャラアニメ:このイベント,24,1
+場所移動:廊下２F,68,61,OFF,上
+●
+END_SCRIPT
+SCRIPT4,0
+場所移動:廊下２F,95,74,OFF,下,そのまま
+●
+END_SCRIPT
+SCRIPT5,0
+文字表示::NPCs: Ritsuko Satomi| Thrown Girl| Mother| Hospital Patients,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::[Place: Inside MRI],[SE: Heavy Machinery (MRI) Mid Volume],,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::[SE: Heavy Machinery (MRI) Mid Volume],It was a very orderly| well-lit room. After urging Ayame,to sit down| Ritsuko locked the door| then turned to face her.,なし,1,OFF,OFF,OFF,0,OFF
+
+文字表示:*:I'm Ritsuko Satomi| a press photographer.,Who are you?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:I-I'm Ayame. Ayame Itou.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Hmm. And you've gotten yourself caught up,in all this too? You poor thing. No one,deserves this.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Do you know...what's happening here| exactly?,,,なし,1,OFF,OFF,OFF,0,OFF
+おずおずと問うあやめ。
+
+文字表示:Ritsuko:I'm afraid I don't. The only thing I can,remember clearly is what happened right,before I lost consciousness...,なし,1,OFF,OFF,OFF,0,OFF
+--------------------------------------------------------------
+
+【回想シーン】
+文字表示::Ritsuko sat on one of the chairs in the waiting,room| waiting for her name to be called.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:*cough* *cough*,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:Quando| questa mattina| mi sono svegliata mi faceva male dappertutto|,sembrava come se i miei polmoni stessero per esplodere. Ho pensato che forse,mi ero presa un brutto raffreddore| ma onestamente| non ne ho idea.,なし,1,OFF,OFF,OFF,0,OFF
+
+文字表示:Text:Quindi prima di andare fuori a fare fotografie,per il mio articolo| ho deciso di passare dal Patriarcha,per fare un controllo.,なし,1,OFF,OFF,OFF,0,OFF
+カツカツカツ……ヒールを履いた、赤い服の患者が
+通り過ぎてゆく。
+椅子で腕を組んでいた律子は、ふぅと手を下ろして
+イライラと腕時計を眺める。
+
+文字表示:Ritsuko:Per quanto ancora dovro' aspettare?!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Devo uscire da qui e mettermi al lavoro prima della,fine del pranzo. Non ho tempo per questo!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Pero' se non riesco a fermare questa tosse| non saro',in grado di lavorare| quindi non avrebbe senso andarci...,*cough* *cough*,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:Brontolando tra me e me impazientemente| i miei occhi vagarono|,fermandosi su un balcone-corridoio visibile dal terzo piano sopra di me.,なし,1,OFF,OFF,OFF,0,OFF
+
+「きゃはははは（※音声のみ）」吹き抜け周りの廊下を、楽しそうに走り回っている小さな女の子がいる。
+
+文字表示:Text:I remember concluding that the third floor was probably,the pediatric department. From my vantage point| I watched,a smiling mother chasing her peppy little daughter around...,なし,1,OFF,OFF,OFF,0,OFF
+
+「きゃーははははは！」「捕まえた！」（※音声のみ）
+
+文字表示:Text:Eventually| she caught her and picked her up.,I noticed she was coughing| but figured it was,probably nothing.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:Then| without any warning whatsoever| she just...threw,the little girl over the railing| all the way down to,the first floor. With a good deal of force| too.,なし,1,OFF,OFF,OFF,0,OFF
+ダーンと物凄い音がして、ホールにあったＴＶの上に女の子が叩きつけられた。
+
+「キャーーーーーーーーー！」（※音声のみ）
+辺りは騒然となる。「うわぁ！」「きゃあぁ！」「何！？」（※音声のみ）
+
+（■※画面スクロールで３階の母親にカメラ戻ると、手すりを乗り越えている動き）
+母親はそのまま手すりを乗り越え、頭から落下した。
+（■※カメラは手ブレで慌てた感じに下スクロール、手振れ満載のままロビーの母親の死体をズーム）
+再び重たい落下音。周りは一層震撼する。
+
+同時に、建物外周を取り囲むシャッターがウィィィ……と閉まり始める。
+外の光が遮断され、段々と暗くなってゆく院内１Fロビー。
+
+文字表示:Ritsuko:...Ma che diavolo?!,,,なし,1,OFF,OFF,OFF,0,OFF
+逃げ出す観衆のなか、おろおろと立ち上がる律子。
+目の前の２死体からきびすを返し、その場を離れようとするが……
+
+文字表示:Ritsuko:...Io... Devo riprendere... quello che sta succedendo.,Mi sento in colpa a farlo| ma uno scoop,e' uno scoop...,なし,1,OFF,OFF,OFF,0,OFF
+両手を合わせて手早くお辞儀をした後、
+カメラを構えて屍二体を動画撮影し始める。そのままゆっくりと近づいてゆく……
+
+文字表示:Ritsuko:...! *cough* *cough* *cough*,,,なし,1,OFF,OFF,OFF,0,OFF
+律子「ウーッ、ケホッ、ゲホッ、ゲホッ、ゲヘッ」（※音声のみ）
+しかしまた激しい咳が出て収まらなくなり、その場にしゃがみ込んでしまった。
+
+文字表示:Text:Immediately after this...,,,なし,1,OFF,OFF,OFF,0,OFF
+■※ガン！と殴り音・画面乱れブラックアウト
+
+文字表示:Text:...I felt a sharp pain on the back of my,head| and that's where the memories stop.,,なし,1,OFF,OFF,OFF,0,OFF
+--------------------------------------------------------------
+
+文字表示::Ritsuko:,When I woke up| I found myself face down on a,stretcher in a second-floor hallway.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:When I woke up| I found myself face down on a,stretcher in a second-floor hallway| dressed,like this.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:...,,,なし,1,OFF,OFF,OFF,0,OFF
+恐ろしい話に、あやめは無言で顔を伏せる。
+だが、ここで今起こっていることの解明には
+結びつきそうにない話のようにも思えた。
+
+文字表示:Ritsuko:There's an awful lump on the back of my head| too.,I think somebody knocked me unconscious with a,blunt object of some kind.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:But before I lost consciousness| I saw something,absolutely terrifying.,,なし,1,OFF,OFF,OFF,0,OFF
+伏せていた顔を上げ、律子を見るあやめ。
+
+文字表示:Ritsuko:...Or| at least| I think I did...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:I saw it through a viewfinder| and I'm starting to doubt,that it was real...but I remember it very distinctly.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:What was it?,,,なし,1,OFF,OFF,OFF,0,OFF
+やや間。律子は目を伏せたあと、思いなおすように
+あやめの目をみて……
+
+文字表示:Ayame:The little girl who was thrown from the third floor,had her head split open on impact. Naturally| she,was already very dead. Except...,なし,1,OFF,OFF,OFF,0,OFF
+--------------------------------------------------------------
+【白黒回想】
+文字表示::As the camera drew closer and closer to,the mangled remains of the little girl|,she actually began convulsing!,なし,1,OFF,OFF,OFF,0,OFF
+【『ギアアアァァァァァァ』と怪物声をあげ始め（※音声のみ）、むくりと上体を起こす】
+
+文字表示:Ritsuko:...?!,,,なし,1,OFF,OFF,OFF,0,OFF
+驚いて身を起こした一瞬、ゴカッと殴られた律子、
+カメラはぶれて床に落ちる。
+
+殴られ気を失った瞬間の記憶が
+フラッシュバックしていた。
+--------------------------------------------------------------
+
+文字表示::Ayame:,...?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:...?,,,なし,1,OFF,OFF,OFF,0,OFF
+話を待つあやめはきょとんとした顔。
+律子はそれを見て、ため息をつき首を振った。
+
+文字表示:Ritsuko:...Never mind. It was probably just a hallucination.,I was losing consciousness| after all.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:(Besides| dead bodies don't just get up like that...),,,なし,1,OFF,OFF,OFF,0,OFF
+あやめは息をついて腰掛けなおす。
+
+文字表示:Ritsuko:At any rate| when I woke up| everything was...,pretty much as you see it now.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:I was fortunate enough to stumble upon a flashlight|,at least. And learned in the process that those...,things...hate light. ,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:What ARE they? Are they...gh-ghosts?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:How should I know?! Just because I'm an adult,doesn't mean I have all the answers!,,なし,1,OFF,OFF,OFF,0,OFF
+下を向き、しゅんとして黙るあやめ。
+背後の部屋の隅で、ズルッと立てかけてあったものがズレるような音がして振り向く。
+
+文字表示:Ritsuko:Hmph. Besides| there's no such thing as ghosts| or,people coming back from the dead| or any of that other,occult nonsense. I'm a journalist! I deal in facts.,なし,1,OFF,OFF,OFF,0,OFF
+
+文字表示:Ritsuko:I have no interest in wild fantasies. We must,be dealing with some kind of poisoning here|,or mass hysteria...or something!,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:They're all patients| after all. There,IS a logical explanation for all this.,,なし,1,OFF,OFF,OFF,0,OFF
+シュボッ。
+律子は煙草に火をつけながらつぶやいた。
+
+あやめは身体を起こして、物音がして倒れたものを見る。
+
+文字表示:Ritsuko:...Oh| Non ti consiglio di guardare la' sotto,,,なし,1,OFF,OFF,OFF,0,OFF
+しかしすでに見てしまった。
+小さな悲鳴をあげて、跳び退る。
+あやめ「きゅっ！」（音声のみ）
+
+文字表示::Text:,Era un uomo estremamente robusto che indossava un completo.,Era chiaramente morto| tutto il suo corpo era coperto, da un grande panno.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:Era un uomo estremamente robusto che indossava un completo.,Era chiaramente morto| tutto il suo corpo era coperto, da un grande panno.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:...era inzuppato da una quantita' abominevole di sangue.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Non lo conoscevo| ma era con me,fino a poco fa. Finche' non... gli hanno mangiato,la faccia. Nel corridoio qua fuori.,なし,1,OFF,OFF,OFF,0,OFF
+
+ぞっとしてあやめは顔を背ける。
+
+文字表示:Ayame:Perche'...? Perche' sta succedendo?!,,,なし,1,OFF,OFF,OFF,0,OFF
+ガタガタと頭を抱えて、震えるしかなかった。
+
+文字表示:Ritsuko:Tutto quello che so| e' che e' pericoloso vagare,nei corridoi qui. Quindi ho una proposta..,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Come hai visto| non c'e' alcuna via,d'uscita da questo posto.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Non so il perche'| ma tutte le uscite e le finestre,sono completamente chiuse. E non puoi,forzarle in nessun modo. Credimi; ci ho provato!,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Penso che la cosa piu' giusta che possiamo fare,adesso e' barricarci da qualche parte finche',qualcuno non arrivi ad aiutarci. Che ne pensi?,なし,1,OFF,OFF,OFF,0,OFF
+涙混じりにあやめは振り向く。
+
+文字表示:Ritsuko:Stavo pensando di andare alla postazione,delle infermiere. C'e' luce ed elettricita'| e cosa,piu' importante... una linea diretta con l'esterno.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Li'| potremmo entrare in contatto con le autorita'|,poi dovremmo semplicemente aspettare che qualcuno ci,porti via da questo inferno.,なし,1,OFF,OFF,OFF,0,OFF
+チャラリと、胸から鍵を取り出して見せる律子。
+文字表示:Text:Ritsuko tira fuori una chiave dalla sua tasca e me la mostra. Vi si poteva leggere sopra| 'Postazione delle infermiere.',なし,1,OFF,OFF,OFF,0,OFF
+フラグ:30:MRI室で回想シーン完了,ON
+
+●
+END_SCRIPT
+SCRIPT5,1
+●
+END_SCRIPT
+SCRIPT6,0
+文字表示:It's a row of medicine bottles.,,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT7,0
+文字表示:There's a stack of patient records here.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:And among them| a note.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Read it?,,,なし,1,OFF,OFF,OFF,0,OFF
+選択肢:Si,No
+▼:Si
+文字表示:[The password to exit in case of emergency is,in the leftmost drawer on the south side.],,なし,1,OFF,OFF,OFF,0,OFF
+●
+▼:No
+●
+選択終了
+●
+END_SCRIPT
+SCRIPT8,0
+文字表示:There are surgical instruments neatly lined up.,,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT9,0
+文字表示:There are numbers on the screen| but it's unclear,what any of them mean.,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT10,0
+●
+END_SCRIPT
+SCRIPT11,0
+カメラ振動:ON,2
+●
+END_SCRIPT
+SCRIPT12,0
+文字表示:Text:C'e' una cartella clinica con una nota,allegata ad essa. C'e' una fotografia e un nome.,,,なし1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Questa... Questa sono io!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Ayame... Itou...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Ayame...? Si| giusto!,Questo e' il mio nome!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Il mio nome e' Ayame Itou.,Finalmente ricordo!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::Feeling nervous| Ayame stepped out of the room.,[Dev Note.],,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT13,0
+;フェード:アウト,1,黒
+グラフィック変更:0,なし,左,OFF,ON,0,8,なし,0,0,0
+カメラ移動:0,1413,上,高速,ON
+フェード:イン,120,黒
+時間待ち:30,CLOSE
+キャラアニメ:14,18,1
+文字表示:Ayame:...,,,なし,1,OFF,OFF,OFF,0,OFF
+キャラアニメ:14,18,2
+文字表示:Ayame:Huh? What? ...What's...?,,,なし,1,OFF,OFF,OFF,0,OFF
+間。
+
+キャラアニメ:14,18,3
+文字表示:Ayame:(Cosa... sta succedendo.),,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:(Cosa mi sta succedendo? Do-dove... sono?!),,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:Sforzo il mio cervello per cercare di capire la situazione|, dove sono e come sono arrivata fin qui.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:Ma non importa quanto ci provi|, non riesco a ricordare nulla.,,なし,1,OFF,OFF,OFF,0,OFF
+ぐっと上半身を起こそうとするが
+両手足が手術台に縛られていて、身体は
+ガンッと台に引き戻される。
+あやめ「あうっ……！」（音声のみ）
+キャラアニメ:14,18,4
+キャラアニメ:14,18,4
+時間待ち:30,CLOSE
+文字表示:Ayame:C-c'e' qualcuno li'?!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Scusatemi!,,,なし,1,OFF,OFF,OFF,0,OFF
+拘束され身動きの取れない主人公は徐々にパニックになる。
+時間待ち:30,CLOSE
+キャラアニメ:14,18,5
+文字表示:Ayame:*pant* *pant* *pant*,,,なし,1,OFF,OFF,OFF,0,OFF
+キャラアニメ:14,18,5
+文字表示:Ayame:(Ho paura... sono terrorizzata!),,,なし,1,OFF,OFF,OFF,0,OFF
+首を振って酸素吸入器をはずし、必死に身体をゆすると、身体中に点滴針をつけたまま
+手術台ごと床にどかっと転げ落ちる。
+キャラアニメ:14,18,5
+あやめ「う……うんっ……！　ううっ、ううっ！　……んんん……っ！」（※強引に脱出を図る。音声のみ）
+キャラアニメ:14,18,6
+カメラ振動:ON,2
+文字表示:Ayame:...!,,,なし,1,OFF,OFF,OFF,0,OFF
+手術ナイフや点滴の倒れる激しい音とともに、
+点滴の針と心電図のチューブが３本ほど身体に繋がったまま、床に転がる。
+キャラアニメ:14,18,7
+文字表示:Ayame:Ngh... Guh... Ah...!,Oongh...,,なし,1,OFF,OFF,OFF,0,OFF
+うめきつつ、針の痛みをこらえながら。身体を揺すると、落ちた弾みでロープが緩んだようで
+何とか手足が自由になった。起き上がろうと、よろよろと四つんばいになるあやめだが
+そこへキーンとひどい頭痛。視界が一瞬白くかすむ。
+
+文字表示:Ayame:Guh...!,,,なし,1,OFF,OFF,OFF,0,OFF
+頭を抱えて、四つんばいのまま頭を床につきぶるぶると震える。
+
+文字表示:Ayame:(It hurts so much... It feels like,my head is about to burst open!),,なし,1,OFF,OFF,OFF,0,OFF
+ギンッと更にひどい頭痛。視界が一瞬白くかすむ。
+
+文字表示:Ayame:Nghh... Nghhh!,,,なし,1,OFF,OFF,OFF,0,OFF
+ビシャビシャビシャ！とそのまま床に、大量に嘔吐と下血失禁。
+上と下から汚物を吐き出し床が一気に汚れる。
+（■※：下血なので下痢便というより血っぽい色でOK、吐瀉物は黄色:
+
+文字表示:Ayame:,*pant* *pant* *pant*,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:*pant* *pant* *pant*,,,なし,1,OFF,OFF,OFF,0,OFF
+虫の息のあやめ。
+
+文字表示:Ayame:(Oh| God... I've made such a mess...),,,なし,1,OFF,OFF,OFF,0,OFF
+ビチャッと汚れた床に腰を落とすと、手術用計器に手をかけて
+なんとか身体を起こす。
+
+文字表示:Ayame:*pant* *pant*,,,なし,1,OFF,OFF,OFF,0,OFF
+上半身を計器に預けている状態。体の手術着は自分の汚物でかなり汚れている。
+
+文字表示:Ayame:*sniffle* Nghh!,,,なし,1,OFF,OFF,OFF,0,OFF
+ブチッと、手に付いている点滴の針を無理に引き抜く。
+
+文字表示:Ayame:...Ngh!,,,なし,1,OFF,OFF,OFF,0,OFF
+心電図吸盤もブチブチと剥がす。
+●
+END_SCRIPT
+SCRIPT14,0
+●
+END_SCRIPT

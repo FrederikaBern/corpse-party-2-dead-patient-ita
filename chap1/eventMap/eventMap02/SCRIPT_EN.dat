@@ -1,0 +1,233 @@
+SCRIPT1,0
+グラフィック変更:0,なし,上,そのまま,OFF,0,0,なし,0,0,0
+文字表示:'We need a cross-section.',,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:'We also need the organs in her chest|,so just take one of her head.',,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:'Do it quickly.',,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:(Uhh...),,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:I can't...move?,My body's fast asleep| but,my brain's still active...,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:'Unn...gh...',I made a sound -- or at least I think I did.,I couldn't be sure if it had actually left my mouth.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:'Hey| she's starting to wake up. Are you,sure the N20 concentration isn't dropping?',,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:'No| it's still over 50%.',,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:'Fine. Then raise it.',,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:'Her muscles are relaxed enough as it is.,Any more could put her life in danger.',,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:The blood vessels in the whites of my eyes were filling,with blood and expanding so fast that it felt like they,were going to burst.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:The pain was so intense that I wanted nothing more than,the release of a deep scream| yet my lungs weren't,cooperating. Try as I might| I could barely even squeak.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:I could feel my consciousness slipping,away from me...,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Aaah! AAAAH!! Cross-section?!,I can't lose consciousness now!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Help me! Someone! Anyone!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:All I could see before my eyes was white|,as I slipped into the most unrestful sleep,imaginable.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:How much time passed before I regained consciousness|,I couldn't say. But when I awoke| the place that I,found myself in couldn't have been any less normal...,なし,1,OFF,OFF,OFF,0,OFF
+ローカルフラグ:0:オープニング終了,ON
+場所移動:手術室（脱出１）,19,18,OFF,そのまま,7,下,なし
+●
+END_SCRIPT
+SCRIPT2,0
+●
+END_SCRIPT
+SCRIPT4,0
+●
+END_SCRIPT
+SCRIPT5,0
+●
+END_SCRIPT
+SCRIPT6,0
+文字表示:E' un lettore magnetico| progettato per scansionare ID card.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Tuttavia| il cavo collegato e' tagliato.,Non riceve elettricita',,なし,1,OFF,OFF,OFF,0,OFF
+時間待ち:7,CLOSE
+使用アイテム分岐:手術用鉗子
+▼:ON
+バストショット:bs_ayame_a01_a01.tga,左,OFF
+文字表示:Ayame:Se riuscissi a mettere la pinza tra i due,potrei in qualche modo riuscire a collegarli...,,なし,1,OFF,OFF,OFF,0,OFF
+バストショット:bs_ayame_a01_j01.tga,左,OFF
+カメラ振動:ON,2
+ＳＥ:CORP2-SE007.wav,ON,OFF
+文字表示:Ayame:AAGH!!,,,VOICE/se/se_ayame/se_ayame_010.wav,1,OFF,OFF,OFF,0,OFF
+文字表示:L'elettricita' passa attraverso la pinza| causandomi una,notevole scossa elettrica. E' molto| anzi| troppo pericoloso,farlo a mani nude!,なし,1,OFF,OFF,OFF,0,OFF
+ローカルフラグ:2:感電した。,ON
+●
+▼:OFF
+使用アイテム分岐:ゴム手袋
+▼:ON
+ローカルフラグ分岐:2:感電した。
+▼:ON
+バストショット:bs_ayame_a01_a01.tga,左,OFF
+文字表示:Ayame:Se indosso questi guanti di gomma prima di utilizzare,la pinza| dovrei riuscire a proteggermi,da eventuali scosse elettriche...,なし,1,OFF,OFF,OFF,0,OFF
+グラフィック変更:このイベント,27,7,そのまま,OFF,1,3,なし,1,0,2
+ＳＥ:CORP2-SE011.wav,ON,OFF
+文字表示:The connection is holding. The card reader,has power now| and is awaiting input.,,なし,1,OFF,OFF,OFF,0,OFF
+ローカルフラグ:3:カードリーダーに電源が入った。,ON
+アイテム取得:手術用鉗子,OFF
+●
+▼:OFF
+バストショット:bs_ayame_a01_a01.tga,左,OFF
+文字表示:Ayame:Mi chedo se possa usare qualcosa per connettere,le due estremita' di questo cavo...,,VOICE/se/se_ayame/se_ayame_007.wav,1,OFF,OFF,OFF,0,OFF
+●
+分岐終了
+●
+▼:OFF
+バストショット:bs_ayame_a01_a01.tga,左,OFF
+文字表示:Ayame:Mi chedo se possa usare qualcosa per connettere,le due estremita' di questo cavo...,,VOICE/se/se_ayame/se_ayame_007.wav,1,OFF,OFF,OFF,0,OFF
+●
+分岐終了
+●
+分岐終了
+●
+END_SCRIPT
+SCRIPT6,1
+使用アイテム分岐:ＩＤカード
+▼:ON
+ＳＥ:CORP2-SE010.wav,ON,OFF
+キャラアニメ:3,24,1
+ローカルフラグ:4:エアロック解除,ON
+アイテム取得:ＩＤカード,OFF
+目的表示:
+●
+▼:OFF
+文字表示:It's a card reader| designed to scan ID cards.,If only I had one of those!,,なし,1,OFF,OFF,OFF,0,OFF
+●
+分岐終了
+●
+END_SCRIPT
+SCRIPT7,0
+●
+END_SCRIPT
+SCRIPT8,0
+診察カード:3
+●
+END_SCRIPT
+SCRIPT11,0
+●
+END_SCRIPT
+SCRIPT13,0
+グラフィック変更:0,なし,上,OFF,OFF,0,0,0,on,0,3
+環境音:CORP2-SE008.wav,ON,ON,600
+ＳＥ:CORP2-SE040-HIT.wav,ON,OFF
+カメラ移動:0,14121410,上,遅い,ON
+時間待ち:30,CLOSE
+キャラアニメ:14,18,1
+文字表示:???:...,,,VOICE/se/se_ayame/se_ayame_002.wav,100
+時間待ち:60,CLOSE
+音声再生:VOICE/c01_01/c01_01_ayame/c01_01_ayame_001.wav,0,100
+ＳＥ:CORP2-SE_K_NUNO002.wav,ON,OFF
+キャラアニメ:14,18,2
+ＳＥ:CORP2-SE_K_NUNO001.wav,ON,OFF
+時間待ち:100,CLOSE
+キャラアニメ:14,18,3
+時間待ち:95,CLOSE
+文字表示:???:(Cosa... sta succedendo.),,,VOICE/c01_01/c01_01_ayame/c01_01_ayame_002.wav,100
+文字表示:???:(Cosa mi sta succedendo? Do-dove... sono?!),,,VOICE/c01_01/c01_01_ayame/c01_01_ayame_003.wav,100
+カメラ移動:0,140f,上,遅い,ON
+時間待ち:10,CLOSE
+ＳＥ:CORP2-SE035.wav,ON,OFF
+時間待ち:120,CLOSE
+カメラ移動:0,1410,上,中,ON
+モノローグ:Sforzo il mio cervello per cercare di capire la situazione|, dove sono e come sono arrivata fin qui.,,なし
+モノローグ:Ma non importa quanto ci provi|, non riesco a ricordare nulla.,,なし
+ぐっと上半身を起こそうとするが
+両手足が手術台に縛られていて、身体は
+ガンッと台に引き戻される。
+キャラアニメ:14,18,4
+音声再生:VOICE/c01_01/c01_01_ayame/c01_01_ayame_004.wav,0,100
+時間待ち:100,CLOSE
+フェード:イン,7,白
+文字表示:???:C-c'e' qualcuno li'?!,,,VOICE//c01_01/c01_01_ayame/c01_01_ayame_005.wav,100
+キャラアニメ:14,18,5
+文字表示:???:Scusatemi!,,,VOICE//c01_01/c01_01_ayame/c01_01_ayame_006.wav,100
+拘束され身動きの取れない主人公は徐々にパニックになる。
+時間待ち:60,CLOSE
+キャラアニメ:14,18,6
+文字表示:???:*pant* *pant* *pant*,,,VOICE//c01_01/c01_01_ayame/c01_01_ayame_007.wav,100
+文字表示:???:(Ho paura... sono terrorizzata!),,,,100
+時間待ち:60,CLOSE
+音声再生:VOICE//c01_01/c01_01_ayame/c01_01_ayame_009.wav,0,100
+ボタン連打:14,18,7,10
+ボタン連打:14,18,8,15
+文字表示:???:...!,,, ,0
+
+音声再生:VOICE//se/se_ayame/se_ayame_017.wav,0,100
+キャラアニメ:14,18,9
+カメラ振動:ON,2
+カメラ移動:0,1412,上,中,ON
+
+
+時間待ち:20,CLOSE
+音声再生:VOICE/c01_01/c01_01_ayame/c01_01_ayame_010.wav,0,100
+時間待ち:60,CLOSE
+キャラアニメ:14,18,10
+時間待ち:100,CLOSE
+フェード:イン,2,赤
+時間待ち:2,CLOSE
+フェード:イン,2,赤
+うめきつつ、針の痛みをこらえながら。身体を揺すると、落ちた弾みでロープが緩んだようで
+何とか手足が自由になった。起き上がろうと、よろよろと四つんばいになるあやめだが
+キャラアニメ:14,18,11
+時間待ち:160,CLOSE
+
+文字表示:???:Owww!,(Quello e' un ago! Ero agganciata ad una flebo?!),,,100
+ＳＥ:CORP2-SE_K_MIMINARI001.wav,ON,OFF
+フェード:イン,30,白
+そこへキーンとひどい頭痛。視界が一瞬白くかすむ。
+キャラアニメ:14,18,12,0
+文字表示:???:Nghh!,,,VOICE/c01_01/c01_01_ayame/c01_01_ayame_011.wav,100
+頭を抱えて、四つんばいのまま頭を床につきぶるぶると震える。
+時間待ち:75,CLOSE
+
+文字表示:???:(Fa un male cane... E' come se,la mia testa stesse per scoppiare!),,VOICE/c01_01/c01_01_ayame/c01_01_ayame_012.wav,100
+ＳＥ:CORP2-SE_K_MIMINARI001.wav,ON,OFF
+フェード:イン,30,白
+ギンッと更にひどい頭痛。視界が一瞬白くかすむ。
+
+ＳＥ:CORP2-SE_K_WATER001.wav,ON,OFF
+文字表示:???:Guh!,,,VOICE/se/se_ayame/se_ayame_020.wav,100
+キャラアニメ:14,68,1,0
+ビシャビシャビシャ！とそのまま床に、大量に嘔吐と下血失禁。
+時間待ち:35,CLOSE
+上と下から汚物を吐き出し床が一気に汚れる。
+キャラアニメ:14,68,2,0
+
+文字表示:???:*pant* *pant* *pant*,,,VOICE/c01_01/c01_01_ayame/c01_01_ayame_014.wav,100
+時間待ち:60,CLOSE
+キャラアニメ:14,68,3,0
+
+時間待ち:35,CLOSE
+文字表示:???:(Oh| Dio... Ho fatto un casino...),,,VOICE/c01_01/c01_01_ayame/c01_01_ayame_015.wav,100
+キャラアニメ:14,68,4,0
+ＳＥ:CORP2-SE_K_NUNO002.wav,ON,OFF
+ＳＥ:CORP2-SE_K_EAT001.wav,ON,OFF
+ビチャッと汚れた床に腰を落とすと、手術用計器に手をかけて
+なんとか身体を起こす。
+文字表示:???:*pant* *pant*,,,VOICE/se/se_ayame/se_ayame_025.wav,100
+ＳＥ:CORP2-SE_K_NUNO001.wav,ON,OFF
+キャラアニメ:14,68,5,0
+
+文字表示:???:*pant* *cough* *cough* *gag*,,,VOICE/c01_01/c01_01_ayame/c01_01_ayame_018.wav,100
+文字表示:???:(L-la mia testa e' cosi confusa...,tutto quello che posso fare per rimanere cosciente e'...),,なし,100
+キャラアニメ:14,68,6,0
+ＳＥ:CORP2-SE_K_NUNO002.wav,ON,OFF
+時間待ち:10,CLOSE
+文字表示:???:(Non posso credere di essermela fatta addosso...,forse l'anestetico non e' ancora finito del tutto?),,なし,100
+環境音:CORP2-SE008.wav,OFF,ON,500
+時間待ち:60,CLOSE
+フェード:イン,30,白
+文字表示:???:Sembra una sala operatoria...,Ma cosa stavo facendo qui?,,なし,1
+音声再生:VOICE/se/se_ayame/se_ayame_015.wav,0,100
+キャラアニメ:14,68,7,0
+時間待ち:60,CLOSE
+ＳＥ:CORP2-SE_K_MIMINARI001.wav,ON,OFF
+フェード:イン,30,白
+文字表示:???:...Aspetta... Chi...?,Chi... sono io...?,,,1
+記憶がないことに気付き愕然とする主人公。【不安BGM：低アレンジ（不協和音風）:自分がどうしてこんな所で、手術台に乗せられていたのか全く分からない。,,,なし,1,OFF,OFF,OFF,0,OFF
+時間待ち:60,CLOSE
+ＳＥ:CORP2-SE040-HIT.wav,ON,OFF
+フェード:イン,30,白
+文字表示:???:(Non riesco a ricordare nulla!),,,VOICE/se/se_ayame/se_ayame_006.wav,100
+キャラアニメ:14,68,8,0
+フェード:アウト,30,黒
+グラフィック変更:0,ayame_normal,左,OFF,ON,0,7,なし,0,0,1
+場所移動:■手術室（脱出）,20,19,OFF,そのまま,7,そのまま,なし,on
+目的表示:Scappa dalla sala operatoria.
+●
+END_SCRIPT
+SCRIPT14,0
+●
+END_SCRIPT

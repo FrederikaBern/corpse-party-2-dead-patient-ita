@@ -1,0 +1,188 @@
+SCRIPT0,0
+【■※玄関扉を調べると】
+
+文字表示:Ayame:...Non si apre...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:Le serrature automatiche della porta sembrano essere scattate| sia sul,pavimento che verso il soffitto. Queste serrature non sembrano,volersi sbloccare per niente al mondo.,なし,1,OFF,OFF,OFF,0,OFF
+
+文字表示:Ayame:Non sta succedendo veramente... Not after I've made it this far!,,,なし,1,OFF,OFF,OFF,0,OFF
+ガラス扉を手でバンバンと叩く。扉をガタガタと揺するが扉は開かなかった。
+
+文字表示:Ayame:*sob*,,,なし,1,OFF,OFF,OFF,0,OFF
+ガタガタ。扉を揺する力も弱る。
+
+文字表示:Ayame:*pant* *pant*,,,なし,1,OFF,OFF,OFF,0,OFF
+（台車を振り向く）
+文字表示:Ayame:Someone must have tried to use this cart to break the,glass and escape...,,なし,1,OFF,OFF,OFF,0,OFF
+（台車横のガラス戸の前へ行き）
+文字表示:Text:Sulla superficie di vetro della porta| ci sono numerose,crepe| come se qualcosa di duro fosse stato ripetutamente, sbattuto contro.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:Ma l'impatto non e' stato sufficiente per sfondarlo.,,,なし,1,OFF,OFF,OFF,0,OFF
+主人公は壁を背にもたれ、ズルズルとその場にしゃがみ込む。
+
+文字表示:Ayame:Vorrei sapere... cosa sta succedendo qui.,,,なし,1,OFF,OFF,OFF,0,OFF
+と、床に血文字が残っていた。
+
+文字表示:Ayame:...?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:C'e' un messaggio scritto col sangue sul pavimento:,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:'Esci subito di qui.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:'Altrimenti l'Oscurita'  presto ti avvolgera'.',,,なし,1,OFF,OFF,OFF,0,OFF
+
+文字表示:Ayame:'Darkening'?,Wh-What's that...?,,なし,1,OFF,OFF,OFF,0,OFF
+意味の分からないあやめ。
+
+文字表示:Ayame:No... No| Non posso arrendermi adesso!,Devo cercare un'altra via d'uscita.,,なし,1,OFF,OFF,OFF,0,OFF
+ふらつきながら立ち上がる。
+
+文字表示:Ayame:Ho visto la luce di una torcia quando ero vicina,alla farmacia. E non penso che fosse...,della donna che si e' impiccata.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:So I know I'm not alone here. If I can just find that,
+person again| I'll be able to deal with this all so much,
+better. They could be in the same situation as me| too!,なし,1,OFF,OFF,OFF,0,OFF
+希望を求めて、探索を再開する。
+●
+END_SCRIPT
+SCRIPT1,0
+場所移動:廊下１F(#4~),102,34,OFF,左,そのまま,上,なし
+●
+END_SCRIPT
+SCRIPT2,0
+文字表示:Ayame:Non si apre...,,,なし,100
+フェード:アウト,30,黒
+カットシーン:#03-1CS
+イベント移動:0,1f12,下,瞬時,ON
+フラグ:15:玄関ホールを見た。,ON,0
+ローカルフラグ:1:「押す」説明,ON,0
+目的表示:Trova un'altra via d'uscita.
+●
+END_SCRIPT
+SCRIPT2,1
+●
+END_SCRIPT
+SCRIPT3,0
+●
+END_SCRIPT
+SCRIPT4,0
+【■※ロビー西の、庭に面したガラス壁付近に来ると】----------------
+窓の方へ近寄り、
+文字表示:Ayame:...? Non riesco a vedere fuori...,Perche' l'uscita e' chiusa?!,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT5,0
+【■※ロビー西の、庭に面したガラス壁付近に来ると】----------------
+窓の方へ近寄り、
+文字表示:Ayame:...? Non riesco a vedere fuori...,Perche' l'uscita e' chiusa?!,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT6,0
+場所移動:廊下１F,102,28,OFF,左,そのまま,上,なし
+●
+END_SCRIPT
+SCRIPT7,0
+【■※ロビー西の、庭に面したガラス壁付近に来ると】----------------
+窓の方へ近寄り、
+文字表示:Ayame:...? Non riesco a vedere fuori...,Perche' l'uscita e' chiusa?!,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT8,0
+●
+
+
+
+END_SCRIPT
+SCRIPT9,0
+●
+
+
+
+END_SCRIPT
+SCRIPT10,0
+●
+
+
+
+END_SCRIPT
+SCRIPT11,0
+●
+
+
+
+END_SCRIPT
+SCRIPT12,0
+●
+
+
+
+END_SCRIPT
+SCRIPT13,0
+●
+
+
+
+END_SCRIPT
+SCRIPT14,0
+場所移動:■廊下１Ｆ,112,41,OFF,下,そのまま,上,CORP2-SE031.wav
+●
+END_SCRIPT
+SCRIPT15,0
+バストショット:bs_ayame_a01_b01.tga,左,OFF
+文字表示:Ayame:Finally! It's the entrance hall!,,,なし,1,OFF,OFF,OFF,0,OFF
+やがてロビー、玄関ホールへ辿り着く。しかし。
+外に面した壁はほとんどが強化ガラスによる壁で外を見晴らせるようになっているが、
+その全てに、外側から重たいシャッターが下ろされていた。
+まるで外界とパトリアーカルを隔離するかのよう。
+フラグ:13:１Fロビーを初見,ON
+●
+END_SCRIPT
+SCRIPT16,0
+モノローグ:Gli oggetti leggeri| o che hanno ruote| possono essere spostati.,,なし
+モノローグ:Se vedi qualcosa che sembra possibile,
+spostare| premi il tasto A (tasto x DualShock)
+mentre sei davanti ad esso per afferrarlo.,なし
+モノローグ:Puoi usare le frecce,direzionali per muoverli.,,なし
+モノローグ:Prova con il carrello nelle vicinanze!,,,なし
+ローカルフラグ:2:「押す」説明した,ON,0
+●
+END_SCRIPT
+SCRIPT17,0
+アイテム取得:１００円玉,ON
+フラグ:22:１００円玉を拾った,ON,0
+●
+END_SCRIPT
+SCRIPT18,0
+フェード:アウト,30,黒
+カットシーン:#04-01CS
+カットシーン:#04-02CS
+カットシーン:#04-03CS
+フラグ:40:警備員から逃げる,ON,0
+場所移動:■玄関ホール（暗),27,41,OFF,そのまま,そのまま,上,なし
+●
+END_SCRIPT
+SCRIPT19,0
+セーブポイント:玄関前
+●
+END_SCRIPT
+SCRIPT20,0
+文字表示:Ayame:...?,,,なし,1,OFF,OFF,OFF,0,OFF
+キャラアニメ:0,7,3,0
+文字表示:Text:C'e' un messaggio scritto col sangue sul pavimento:,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:'Esci subito di qui.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:'Else the madness will soon be upon you.,,,なし,1,OFF,OFF,OFF,0,OFF
+キャラアニメ:0,7,12,0
+文字表示:Ayame:M-Madness? What does that mean?,,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT21,0
+診察カード:10
+●
+END_SCRIPT
+SCRIPT22,0
+環境音:CORP2-SE052-KNKYO.wav,OFF,ON,50
+ＢＧＭ:CORP2-BGM002.wav,ON,ON,ON,100,100
+ローカルフラグ:0:BGMを鳴らした。,ON
+●
+END_SCRIPT
+SCRIPT23,0
+診察カード:30
+●
+END_SCRIPT
+SCRIPT24,0
+●
+END_SCRIPT

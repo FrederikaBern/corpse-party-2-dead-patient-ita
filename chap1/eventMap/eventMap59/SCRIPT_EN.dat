@@ -1,0 +1,528 @@
+SCRIPT1,0
+フェード:アウト,30,黒
+カットシーン:#11病室２Ｆ０２
+フェード:イン,30,黒
+文字表示:Ayame:(C'e' uno di quegli inquietanti zombie laggiu'. Dovremmo continuare a muoverci.),,なし,1,OFF,OFF,OFF,0,OFF
+パーティー編成:ritsuko_duct,なし,なし
+●
+END_SCRIPT
+SCRIPT2,0
+フェード:アウト,30,黒
+カットシーン:#10-01SC
+フェード:イン,30,黒
+フラグ:41:ダクトで律子が何かに目覚める,ON,0
+パーティー編成:ritsuko_duct,なし,なし
+●
+END_SCRIPT
+SCRIPT2,1
+●
+END_SCRIPT
+SCRIPT3,0
+文字表示:Ayame:(Non c'e' nessuno laggiu'. Questa stanza dovrebbe,essere sicura.),,なし,1,OFF,OFF,OFF,0,OFF
+パーティー編成:なし,なし,なし
+フラグ:96:レントゲン室の電灯をＯＮ,ON,0
+ＢＧＭ:CORP2-BGM001.wav,OFF,ON,OFF,0,100
+場所移動:■レントゲン室,25,16,OFF,そのまま,そのまま,上,なし,off
+●
+END_SCRIPT
+SCRIPT4,0
+診察カード:13
+●
+END_SCRIPT
+SCRIPT5,0
+文字表示:Uomo Armato:Sono scappati! Nei condotti!, , ,なし,100
+文字表示:Uomo Armato:Fortificare le altre prese d'aria!,Non lasciateli scappare!, ,なし,100
+フラグ:322:ダクトで隊員の声を聴いた,ON,0,OFF
+●
+END_SCRIPT
+SCRIPT5,1
+●
+END_SCRIPT
+SCRIPT6,0
+診察カード:23
+●
+END_SCRIPT
+SCRIPT7,0
+ＢＧＭ:CORP2-BGM003.wav,ON,ON,ON,100,100
+ローカルフラグ:0:BGMを鳴らした,ON,0
+パーティー編成:ritsuko_duct,なし,なし
+フォグ:OFF
+フラグカウントキャンセル:
+●
+END_SCRIPT
+SCRIPT7,1
+●
+END_SCRIPT
+SCRIPT8,0
+フェード:アウト,30,黒
+カットシーン:#11病室２Ｆ０１
+フェード:イン,30,黒
+文字表示:Ayame:(C'e' uno di quegli inquietanti zombie laggiu'. Dovremmo continuare a muoverci.),,なし,1,OFF,OFF,OFF,0,OFF
+パーティー編成:ritsuko_duct,なし,なし
+●
+END_SCRIPT
+SCRIPT9,0
+文字表示:Uomo Armato:Sono scappati! Nei condotti!, , ,なし,100
+文字表示:Uomo Armato:Fortificare le altre prese d'aria!,Non lasciateli scappare!, ,なし,100
+フラグ:322:ダクトで隊員の声を聴いた,ON,0,OFF
+●
+END_SCRIPT
+SCRIPT9,1
+●
+END_SCRIPT
+SCRIPT10,0
+ローカルフラグ:1:戻ったら怒られる,ON,0
+●
+END_SCRIPT
+SCRIPT11,0
+音声再生:VOICE/c01_10/c01_10_bougo_a/c01_10_bougo_a_001.wav,0,100
+●
+END_SCRIPT
+SCRIPT12,0
+音声再生:VOICE/c01_10/c01_10_bougo_a/c01_10_bougo_a_001.wav,0,100
+●
+END_SCRIPT
+SCRIPT13,0
+二人に向かってカメラを構えた律子が
+近付いてくる。
+
+文字表示:Ritsuko:Are you all right?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Yeah. Good lookin' out| lady! Thanks!,...Hey| whatcha takin' pictures for?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Questa e' la situazione piu' bizzara,in cui sono mai stata in tutta la mia vita. Non c'e' alcun,motivo per cui NON debba fare una foto.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Avranno uno shock quando torneranno in ufficio. Appena,usciro' da qui| dovro assicurarmi di avere del materiale,sulla mia scrivania per tutti gli ospiti che intervistero.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Cosa?! Non puoi fototgrafarmi adesso!,Non sto indossando niente di carino!,,なし,1,OFF,OFF,OFF,0,OFF
+しかし律子は無視して撮り続ける。
+
+文字表示:Ritsuko:E' una tua amica?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Si. Siamo della stessa classe.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Oh. Piacere di conoscerti| allora.,Ritsuko Satomi. Sono una fotoreporter,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Aha! Adesso ha senso. Piacere di conoscerti.,,,なし,1,OFF,OFF,OFF,0,OFF
+恐ろしい目に遭った千代美だが、つとめて口調を楽しげにしている。
+しかしその声は、やはりどこか上ずっていた。
+
+千代美「へへ……」（※愛想笑い、声のみ）
+律子は無言でそれを眺め、
+
+文字表示:Ritsuko:E' un bene che siate al sicuro. Se fossi stata,sola| tuttavia| mi dispiace dirlo| ti avrei,lasciata morire.,なし,1,OFF,OFF,OFF,0,OFF
+おどろいた千代美、愛想笑いから目を丸く。
+
+文字表示:Ritsuko:...Suppongo che tu non sappia niente,di quello che sta succedendo| vero?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Nulla di nulla.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Non credo sia cosi',,,なし,1,OFF,OFF,OFF,0,OFF
+首を振る千代美に、
+ため息をつく律子。向けていたカメラを下げる。
+
+文字表示:Ritsuko:Right now| this hospital is full of people who've,completely lost their minds| as you've no doubt seen.,And we're not sure how or why they're like that.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:La cosa peggiore e' che tutte le porte,e le finestre sono chiuse. Tutte quante!,Semplicente non c'e' una via di fuga.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Quindi abbiamo deciso di rinchiuderci,qui finche' qualcuno non ci aiuta. Sei con noi| o,sei fuori?,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Hmm?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Se non vuoi rimanere qui con noi|,allora mi dispiace ma devo,chiederti di andartene.,なし,1,OFF,OFF,OFF,0,OFF
+話し方が段々高圧的になっている律子に、
+主人公と千代美は顔を見合わせて目をパチパチとさせる。
+
+文字表示:Ritsuko:Quindi| cosa farai?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Umm... Se la poni in quel modo|,immagino debba restare| no?,,なし,1,OFF,OFF,OFF,0,OFF
+やや間があり、
+
+文字表示:Ritsuko:Okay| allora. In questo caso sei una di noi!,Benvenuta a bordo.,,なし,1,OFF,OFF,OFF,0,OFF
+にこりと笑うと、ステーション備え付けの電話へつかつかと歩み寄る。
+
+文字表示:Ritsuko:Possiamo entrare in contatto con quelli all'esterno da qui.,,,なし,1,OFF,OFF,OFF,0,OFF
+受話器を耳に当てる。
+……が、直後。カチャッと電話のフックを指で押し、
+しばらくしてまた押す。
+やがてガチャガチャと何度も電話のフックを押すと、
+苛立ち紛れに受話器を叩きつけた。
+
+あやめ「きゅっ」（※音声のみ）
+千代美「わぁ」（※音声のみ）
+音に驚いて思わずすくむあやめたち。
+
+文字表示:Ritsuko:Dammit! I can't get through!,What is going ON here?!,,なし,1,OFF,OFF,OFF,0,OFF
+床に沢山散らばった本を見ようとしゃがみ込む律子。
+
+文字表示:Ritsuko:Quelle... persone la' fuori stanno chiaramente soffrendo,di una malattia molto grave. E se hanno causato cosi' tanto,panico da far scappare tutte le infermiere...,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:...then surely someone must have tried,looking for a cure by now!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:While taking photographs of everything she possibly could|,Ritsuko also began picking up and flipping through all the,papers and books on the floor| one by one.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:(Whoa... Check it out! You can see her underwear!),,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:(Honestly! Is this really the time?!),,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:(Well| it's not something you get,to see every day| now| is it?),,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:(S-Seriously! Stop!),,,なし,1,OFF,OFF,OFF,0,OFF
+律子を見ないように背を向けるあやめ。
+
+文字表示:Ritsuko:...What's this?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Hmm? Did you find something?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Some of the books have red markings in them.,Look!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::Ayame:,...'Madness...Syndrome'?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:...'Madness...Syndrome'?,That sounds kind of...famili--,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Oh| you're right! All the red markings,are in sections that talk about that,specific disease!,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::There are markings in red pen here and there.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Can't say I've ever heard of it| though. With a name,like that| though| it sounds like an epidemic you'd,read about from an old medieval village or something...,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:I wonder how ancient this book even is.,The handwriting's simply impossible to read!,,なし,1,OFF,OFF,OFF,0,OFF
+律子は資料を机に置くと、カメラを提げて
+そのままつかつかと奥の流し場に立つ。
+
+文字表示:Ritsuko:Anyway| panicking certainly isn't going to be,of any help right now. What say I go make us,some coffee?,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:And don't worry about being stuck in here for a long,time or anything! It's not like we'll be here for,days. It's just until help arrives.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:I just sent him another text. I'm sure he'll reply soon.,,,なし,1,OFF,OFF,OFF,0,OFF
+（暗転）
+●
+END_SCRIPT
+SCRIPT14,0
+
+
+ステーションにあったインスタントコーヒーを勝手に拝借し、ポットの湯を注いで３杯分。
+律子の淹れたコーヒーを飲みながら、身体を温める主人公達。
+
+律子は、壁の天井付近にある角ダクトを見上げている。
+
+文字表示:Ritsuko:Hey| this room has a ventilation duct. If we,listen closely| we might be able to hear what's,going on elsewhere in the building.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::It might be possible to hear what's going,on elsewhere in the building from here.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:So...who's the dude you're sending messages to?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:His name's Masami. Masami Yoshinaka.,He works as a nurse here.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::Masami Yoshinaka. He works as a nurse here.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:He your boyfriend?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Fiance| actually.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Oh| yeah| you mentioned that!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Ooh| la la...,,,なし,1,OFF,OFF,OFF,0,OFF
+//SE:ピッ（携帯操作音）
+文字表示:Ritsuko:Anyway| the message I sent him said that we're,waiting in the nurse's station. Let's just see,what he says in response.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:How about you CALL him? I mean| it's a phone!,That's gotta be way faster| right?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:I've tried| repeatedly. But he never picks up.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Stands to reason he wouldn't| though. With the,hospital as it is| he must have his hands full,finding people to tend to all the patients here.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Keeping track of everyone caught up in this,mess can't be an easy job.,,なし,1,OFF,OFF,OFF,0,OFF
+
+
+
+文字表示:Chiyomi:Mmm... This coffee's good!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:...Chiyomi? I have to ask: why are you here?,Like| at the hospital? Did you get hurt?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Lol| you kidding? I heard you were laid up and,came to pay you a visit| silly!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:What...?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:I was supposed to come here with Curara| Shibainu|,and Zakiyama| but those plans fell through| so we,decided just to meet up here instead.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::We decided just to meet up here instead.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Which means I came here aaaaall by myself!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:...I was...admitted here?,,,なし,1,OFF,OFF,OFF,0,OFF
+うつむくあやめ。
+記憶をひねり出そうと床を見つめる。
+
+文字表示:Chiyomi:(Whew! She hasn't worked out that I got left behind,because I overslept. Dodged a bullet there!),,なし,1,OFF,OFF,OFF,0,OFF
+
+文字表示:Ritsuko:You do realize we can read you like a book| don't,you? It's plainly obvious from your tone exactly,what you're thinking.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Nyo?!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Eheheh... Aaaanyway| I was buying some candy,to help me wake up when all of a sudden| these,shutters started coming down in the hall.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:There was a huge scream| then bam|,everything was just...chaos.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:People were running around and freaking out.,Totally out of control! And that's when the,whole place got all white and smoky. ,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:I breathed some of the smoke in| and,before I knew it| I was unconscious.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Then| when I came to| I was on the floor,in the bathroom| dressed like this!,,なし,1,OFF,OFF,OFF,0,OFF
+手術着をつまみ、己が姿を眺める千代美。
+
+文字表示:Chiyomi:Stealing my clothes is bad enough| but who the hell,steals a girl's underwear?! It's gettin' pretty drafty,and cold down south| if you know what I mean!,なし,1,OFF,OFF,OFF,0,OFF
+
+つまんだ裾をひらひらさせながらつぶやく千代美。
+
+文字表示:Ayame:...Chiyomi| can you tell me why I was,in the hospital to begin with?,,なし,1,OFF,OFF,OFF,0,OFF
+うつむいていたあやめが、すがるように顔を上げる。
+
+文字表示:Chiyomi:Huh?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:I| uh| kind of lost all my memories.,,,なし,1,OFF,OFF,OFF,0,OFF
+しんとした間。
+
+文字表示:Chiyomi:...Are you| like| serious?! There's no way!,Hahaha... Surely you haven't forgotten ME| right?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:No| I remember you. I remember everybody,else you just mentioned| too| from school.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:But that's about ALL I remember.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:I couldn't tell you anything about,myself right now other than my name.,,なし,1,OFF,OFF,OFF,0,OFF
+頭を抱えてうな垂れる主人公。
+
+文字表示:Chiyomi:Holy crap...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:*sniffle*,,,なし,1,OFF,OFF,OFF,0,OFF
+ついに泣き出す主人公。
+
+文字表示:Ayame:I hate this. I'm so scared...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Come on! Don't cry...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:*sob*,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:It'll be okay! I'll tell you,everything I know.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:I can fill in all your missing memories.,How about that?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:*sob* *sob*,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:...Hey!,,,なし,1,OFF,OFF,OFF,0,OFF
+急に怒った様な声を上げる律子。
+驚いて振り向く二人。
+
+文字表示:Ritsuko:Do you mean to tell me you have amnesia?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Th-That's right...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Why didn't you say so sooner?!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Umm... It just didn't really come up.,I'm sorry.,,なし,1,OFF,OFF,OFF,0,OFF
+――重苦しい間。
+
+文字表示:Ayame:...Really| I'm sorry...,,,なし,1,OFF,OFF,OFF,0,OFF
+間。
+
+文字表示:Chiyomi:What do you think you're doing making,Ayame feel bad| you old bag?,,なし,1,OFF,OFF,OFF,0,OFF
+律子を睨んで、不満の声を漏らす千代美。
+
+文字表示:Ritsuko:EXCUSE me?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Stop it| Chiyomi.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Awww... But I was just stickin' up for you!,,,なし,1,OFF,OFF,OFF,0,OFF
+間。
+
+文字表示:Ritsuko:*sigh*,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:All I meant was| if you'd told me|,I might have been able to help you.,No more keeping secrets| okay?,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:We're in this together.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:All right.,,,なし,1,OFF,OFF,OFF,0,OFF
+ギシッと椅子に座りなおすと、
+二人を眺めながら、無表情でコーヒーを啜る律子。
+
+文字表示:Ritsuko:So your friends are in this hospital too|,then?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:They should be. I think we should,go look for--,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:I see. I certainly hope,they're okay.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Not that any of that should matter to us,right this moment| of course. We're staying,put in here until help arrives!,なし,1,OFF,OFF,OFF,0,OFF
+――それは、『探しに行ったりしないぞ』という意思表明だった。
+主人公と千代美は顔を見合わせて口ごもる。
+●
+END_SCRIPT
+SCRIPT15,0
+文字表示:Ritsuko:Do you see any TVs or radios? I'd like,to know what's going on outside.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Huh? Can't you just use your phone?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:No| Miss Smarty-pants| I can't! My phone,doesn't have any of those fancy features.,Sorry to be so behind the times.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:*snort*,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Just go find us a television! This is the nurse's,station| so there has to be one around here somewhere!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Gaaah... Perche' la compagnia non mi ha,ancora dato uno smartphone?! *grumble*,,なし,1,OFF,OFF,OFF,0,OFF
+苛立ち混じりの命令口調に押され、
+あやめ達は荒れた部屋の中を見回った。
+
+文字表示:Chiyomi:Se solo avessi il mio telefono| potremmo guardare la tv o,cercare su internet tutto quello che vogliamo! Booo...,,なし,1,OFF,OFF,OFF,0,OFF
+身体が冷えた千代美はくしゃみをする。
+そのまま二人で部屋内を見てまわると、床に立てかけてあったホワイトボードの裏に
+液晶ＴＶが置かれていた。
+
+文字表示:Ayame:Oh| una TV! Ne ho trovata una!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Eccellente. Sembra essere funzionante.,Potresti gentilmente attaccare la presa per me? C'e',una presa proprio laggiu'.,なし,1,OFF,OFF,OFF,0,OFF
+ＴＶをつけてチャンネルを切り替えてゆくと「強いノイズ」または「NO SIGNAL」。
+病院を囲むシャッターの影響だろうか。
+ノイズのチャンネルでは、普通にアニメを放送しているようだった。
+
+文字表示:Chiyomi:Wow... I can't believe they're still,broadcasting anime at a time like this.,Are we not newsworthy enough?!,なし,1,OFF,OFF,OFF,0,OFF
+つぶやく千代美を尻目に。
+
+文字表示:Ritsuko:It's not just one channel. Looks like,they're all showing regular programming.,,なし,1,OFF,OFF,OFF,0,OFF
+※ノイズ混じりのTV番組の音声が、ピッピッ、と次々切り替えられてゆく
+（ピッ）「次は全国の天気です！ウェザー♪リッポート♪」
+（ピッ）「蒸着だッ」
+（ピッ）「腕を大きく振って、はっけよい体操～」
+（ピッ）「こんなの絶対可笑しいわ！」
+
+文字表示:Ritsuko:...Which means as far as the outside world,is concerned| there's nothing newsworthy,going on right now...,なし,1,OFF,OFF,OFF,0,OFF
+※ノイズ混じりのアニメの声
+（ピッ）「We're gonna get you」（http://www.youtube.com/watch?v=DGIjeGy16KI）　（※音声のみ）
+
+そこへ。突然ナースコールが鳴る。
+
+文字表示:Ritsuko:...What the...?! What's that sound?!,,,なし,1,OFF,OFF,OFF,0,OFF
+律子が立ち上がってうろたえる。
+
+文字表示:Chiyomi:I think... Yeah| that's a nurse call!,I heard it before| when I first got here.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:So you're saying one of the patients,pressed their call button?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Seems like it!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Where's it coming from?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::Umm... c'e' una luce lampeggiante accanto alla,voce| 'MRI room.',,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Umm... c'e' una luce lampeggiante accanto alla,voce| 'MRI room.',,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::Ritsuko and Ayame alike went pale. They both knew well,that the MRI room had nothing in it but a dead body.,No one would willingly choose THAT as a safe zone.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::The two of them exchanged glances| and time seemed,to stand still for a moment. Then Ritsuko moved to,respond to the signal| not seeing any other choice.,なし,1,OFF,OFF,OFF,0,OFF
+
+マイクを取る律子。
+
+文字表示:Ritsuko:Who is it? Is someone there?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Who pressed the button? Are you...,in your right mind?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:...gh...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:...? Helloooo? Is anyone there?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:...,,,なし,1,OFF,OFF,OFF,0,OFF
+ガチャンとマイクを置く律子。
+
+文字表示:Ritsuko:*sigh* Nessuna risposta. Deve,esserci un malfunzionamento.,,なし,1,OFF,OFF,OFF,0,OFF
+言うなり、またナースコールが鳴る。
+文字表示::They looked at the panel before them| and sure enough|,the MRI room was still lit. A momentary chill ran down,their spines.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Cosa c'e' che non va| Ayame?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:I was in the MRI room. There's a...,d-dead body in there. So if that's,where the call is coming from...,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:...,,,なし,1,OFF,OFF,OFF,0,OFF
+骨人形のようにガタガタガタガタと震えだす千代美。
+
+文字表示:Ritsuko:Just ignore it. Pay it no mind.,,,なし,1,OFF,OFF,OFF,0,OFF
+律子は乱暴にアラームを解除して、ギシリと椅子に腰掛ける。
+
+文字表示:Ayame:Y-You can't just switch the nurse call system,off like that! What if someone actually needs,our help?!,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:It's clearly broken. And that noise was,starting to get under my skin!,,なし,1,OFF,OFF,OFF,0,OFF
+
+律子には、まったく取りつくしまがない。
+
+――やがて、意を決したように主人公は言う。
+
+文字表示:Ayame:...Umm| penso che andro' a dare un'occhiata.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Scusami?,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Andro' nella MRI room.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Ma sei impazzita?!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:*teeth chatter*,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Ma ci potrebbe essere qualcuno ferito li'.,Potrebbe essere in gravi condizioni da non riuscire nemmeno,a parlare.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:And if I can bring them here| we might,be able to help them...,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:...And it might be one of your friends|,is what you're really trying to say.,,なし,1,OFF,OFF,OFF,0,OFF
+あやめの言葉を奪うように律子が言う。
+腕を組んで轟然とした態度だ。あやめはうつむいてしまう。
+
+文字表示:Ayame:...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:No. You're not going anywhere.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:But--,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:We made up our minds to hole up in here| didn't we?,That means not opening the door| for any reason!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Cosa pensi che succedera' se uno di loro ti vedesse uscire?!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Se scoprono che siamo qui e decidono di assaltarci| cosa pensi ci succedera'? Hmm?!,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Que-Questo non...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Questo piano smette di funzionare se,uno di noi decide di non seguirlo. Se sei dentro| devi,esserci fino alla fine! Hai capito?!,なし,1,OFF,OFF,OFF,0,OFF
+激しい勢いの律子に反論できないあやめ。
+
+文字表示:Chiyomi:*sigh* Come on| Ayame. Let's go.,I'd rather take my chances out there,than stay here with this psycho.,なし,1,OFF,OFF,OFF,0,OFF
+ガタッと椅子を後ろに蹴倒して立ち上がる千代美。
+
+文字表示:Ritsuko:What's that| you little shit?!,If you want to go| you're going alone!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Chiyomi:Uhh| no? Ayame's the one who suggested,going in the first place. So I'll have,her with me!,なし,1,OFF,OFF,OFF,0,OFF
+ギロッと律子が主人公を睨む。
+ビクンと下を向く主人公。
+
+だがやがて、そっと頷いた。
+
+文字表示:Ayame:Yeah. I'd like to see who it was.,,,なし,1,OFF,OFF,OFF,0,OFF
+それを見て、
+
+文字表示:Ritsuko:...! Little brats. I'm your elder!,You have to listen to me!,,なし,1,OFF,OFF,OFF,0,OFF
+ヒステリックに叫ぶ律子に耐えられなくなり、
+千代美は律子の言葉を無視してあやめの手を引き、ステーションを出ようとする。
+律子「聞きなさいって言ってんのよ！　コラッ！」（※音声のみ）
+
+出口の重しをどけ、ドアに手をかける千代美。（SE:机引き摺りガガッ）
+
+文字表示:Ritsuko:If you leave here| that is IT. I am NEVER,letting you in again. So you'd better think,real hard before opening that door!,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::You'd better think real hard before,opening that door!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Please don't do that. We'll be back really,soon| so please don't shut us out.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:We... We don't want to be trapped outside.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Then stay in here like we agreed!,We had a plan| remember?!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:...,,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT16,0
+
+文字表示:,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Chiyomi!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Un idiota e' piu' che sufficiente per me.,Speriamo che questo la faccia ragionare!,,なし,1,OFF,OFF,OFF,0,OFF
+千代美「あやめー！　律子、クソババー！　……もぅーー！　……んん～（泣き入り）」
+（音声のみ・扉越し加工）
+
+やがて千代美はいなくなり、辺りはしんとなる。
+部屋の中、律子と二人きりになるあやめ。
+
+律子「……ふん」（音声のみ）
+千代美がズラした重しを扉の前に戻さず、悠然と部屋奥に戻る律子。
+
+あやめは外への扉のすぐそばにいる。
+今にも千代美を追いかけて行きたい衝動にかられる……
+●
+END_SCRIPT
+SCRIPT17,0
+■※分岐展開※■
+　千代美の後を追うと律子が殺されてバッドエンドルートへ。******************
+　追わずに、しばらく律子と話すとトゥルーエンドへ。
+
+
+■扉を開けようと（出ようと）すると**************
+文字表示:Ritsuko:Non farlo! Se te ne andrai| non ritorernai, piu'. Dico sul serio! E' questo quello che vuoi veramente?,,なし,1,OFF,OFF,OFF,0,OFF
+部屋に向き直るあやめ。
+
+文字表示:Ayame:(It's too dangerous to leave Chiyomi out there,on her own. I have to do something!),,なし,1,OFF,OFF,OFF,0,OFF
+
+●
+END_SCRIPT
+SCRIPT18,0
+■律子に話しかけると**************
+文字表示:Ritsuko:Non sei un'idiota| vero?,Questo posso dirlo.,,なし,1,OFF,OFF,OFF,0,OFF
+
+
+■律子に話しかけると（２回目）********
+文字表示:Ritsuko:Crisi come questa servono solo,a cercare il numero uno.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Tutti hanno bisogno di mantenere il controllo e proteggersi --,e alla fine| ci si aiuta a vicenda. Lavorando,tutti insieme possiamo salvarci.,なし,1,OFF,OFF,OFF,0,OFF
+【選択肢】
+
+・「違うと思います」***
+文字表示:Ritsuko:...Figurati. Probabilmente e' troppo,da comprendere per una bambina come te.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Scommetto che pensi che l'eroismo,serva a qualcosa| vero?,,なし,1,OFF,OFF,OFF,0,OFF
+・「わかります」*******
+文字表示:Ritsuko:Ecco qua.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Sei una brava ragazza. Mi piacciono i tipi come te.,(■Escape Flag On),,なし,1,OFF,OFF,OFF,0,OFF
+
+※脱出フラグON以降、律子に話しかけると*****
+文字表示:Ritsuko:Sei una brava ragazza. Mi piacciono i tipi come te.,,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT19,0
+■脱出フラグONから４秒後に自動発生イベント**********
+
+SE:ピロロロロロロ！
+雅巳（律子彼氏）からメールの返信。
+
+文字表示:Ritsuko:...!,,,なし,1,OFF,OFF,OFF,0,OFF
+Se:ピッ
+携帯を見る律子。
+
+文字表示:Ritsuko:Masami mi ha mandato un altro messaggio!,Mi ha chiesto se sono ferita.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:...,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Eh eh. E' proprio un tesoro! Sono,io sono quella piu' anziana nella relazione|,dovrei prendermi io cura di lui.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:Gli mando subito la risposta.,'Sto bene| mi sono solo tagliata un po' la mano.',,なし,1,OFF,OFF,OFF,0,OFF
+SE:ピッピッピッ、……ピッ……ピッピッ……（携帯操作音ループ）
+
+あやめに背を向けてメールを打ち始める律子。
+扉をチラッと見るあやめ。
+●
+END_SCRIPT
+SCRIPT20,0
+
+文字表示:Ayame:(Mi dispiace| Ritsuko!),[Switch to Tense BGM Mid Arrange],,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::Taking advantage of the fact that Ritsuko was facing the,other way and focusing on sending her message| Ayame,sneaked out of the room| softly closing the door behind her.,なし,1,OFF,OFF,OFF,0,OFF
+
+そこには、患者服を着た人（黒患者）が立っていた。
+頭がもやもやと黒く煙り、顔が見えない。
+あやめの姿を見ると追いかけてくる。（掴まると顔を食われて死亡）
+
+プレイヤーが逃げると追いかけてこないが、
+黒患者がナースステーションの扉を向き直るデモが入る。
+
+【分岐開始】律子死亡ルート（03bEX）へ　　
+●
+END_SCRIPT
+SCRIPT21,0
+SE:ピッピッピッ、……ピッ……ピッピッ……（律子携帯操作ループ）
+携帯でメールを打ち続ける律子。
+
+あやめ、口に手を当て考えるポーズ。
+
+文字表示:Ayame:(Sono preoccupata per Chiyomi| ma...),,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:(...Non posso lasciare Ritsuko da sola.,Devo convincerla a cambiare idea.),,なし,1,OFF,OFF,OFF,0,OFF
+近寄って、
+
+文字表示:Ayame:Capisco cosa intendi Ritsuko|,ma ancora non riesco a non preoccuparmi per Chiyomi.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Non credo che aiutare le persone,sia come trattenerle.,,なし,1,OFF,OFF,OFF,0,OFF
+SE:ピッピッ、……ピッ（律子携帯操作ループ）→STOP
+
+文字表示:Ayame:...Non nego di essere preoccupata per i miei amici| ma,anche se non fossero qui| credo ancora che,aiutare chi ha bisogno sia la cosa giusta da fare.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:...Parli come un bambina ingenua.,Sei solo una sciocca.,,なし,1,OFF,OFF,OFF,0,OFF
+SE:ピロロロロロロ！
+雅巳（律子彼氏）からメールの返信。
+
+Se:ピッ
+携帯を見る律子。
+
+文字表示:Ritsuko:Oh| a quanto pare e' gia in ospedale!,Dice di aspettarlo qui.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:O-Oh... va bene.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ritsuko:E' un'ottima notizia! Ce ne andremo,ancora prima di quanto pensassi.,,なし,1,OFF,OFF,OFF,0,OFF
+
+
+●
+
+
+END_SCRIPT

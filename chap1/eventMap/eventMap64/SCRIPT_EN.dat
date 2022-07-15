@@ -1,0 +1,515 @@
+SCRIPT1,0
+場所移動:手術室,20,11,OFF,下
+●
+END_SCRIPT
+SCRIPT2,0
+フラグ分岐:42:レントゲン室から脱出した
+▼:ON
+環境音:c01_12_ryuji_001.wav,ON,OFF,50
+●
+▼:OFF
+環境音:CORP2-SE052-KNKYO.wav,OFF,ON,100
+●
+分岐終了
+ＢＧＭ:CORP2-BGM008.wav,ON,ON,ON,100,100
+ローカルフラグ:0:BGMを鳴らした。,ON
+●
+END_SCRIPT
+SCRIPT2,1
+環境音:CORP2-SE052-KNKYO.wav,OFF,ON,100
+ＢＧＭ:CORP2-BGM008.wav,ON,ON,ON,100,100
+ローカルフラグ:0:BGMを鳴らした。,ON
+●
+END_SCRIPT
+SCRIPT2,2
+●
+END_SCRIPT
+SCRIPT3,0
+ＳＥ:CORP2-SE049.wav,ON,OFF
+文字表示:La porta e' chiusa a chiave.,Sulla targhetta si puo' leggere| 'MRI Room.',,なし,1
+●
+END_SCRIPT
+SCRIPT3,1
+フラグ:47:CT室に入った,ON,0
+フェード:アウト,30,黒
+カットシーン:#12-01CS
+場所移動:■ＭＲＩ室,25,13,OFF,下,そのまま,上,なし,on
+フラグ:99:智久を見た,ON,0
+フラグ:97:竜司の音声を聞いた,OFF,0
+環境音:c01_12_ryuji_001.wav,OFF,ON,100
+●
+END_SCRIPT
+SCRIPT3,2
+場所移動:■ＭＲＩ室,27,11,OFF,左,そのまま,上,なし,on
+●
+END_SCRIPT
+SCRIPT3,3
+場所移動:■ＭＲＩ室,27,11,OFF,左,そのまま,上,なし,on
+●
+END_SCRIPT
+SCRIPT4,0
+文字表示:La porta e' chiusa a chiave.,Sulla targhetta si puo' leggere| 'MRI Room.',,なし,100
+●
+END_SCRIPT
+SCRIPT4,1
+ＳＥ:CORP2-SE023.wav,ON,OFF
+キャラアニメ:このイベント,24,1
+場所移動:■ＭＲＩ室,18,31,OFF,上,そのまま,上,なし,on
+●
+END_SCRIPT
+SCRIPT4,2
+ＳＥ:CORP2-SE023.wav,ON,OFF
+キャラアニメ:このイベント,24,1
+場所移動:■ＭＲＩ室,18,31,OFF,上,そのまま,上,なし,on
+●
+END_SCRIPT
+SCRIPT4,3
+ＳＥ:CORP2-SE023.wav,ON,OFF
+キャラアニメ:このイベント,24,1
+フェード:アウト,30,黒
+カットシーン:#EX-06CS
+場所移動:■ＭＲＩ室,24,29,OFF,上,そのまま,上,なし,on
+目的表示:Torna indietro e di' a Ritsuko cos'e' successo.
+フラグ:166:EXサラリーマンを調べた,ON,0
+●
+END_SCRIPT
+SCRIPT4,4
+ＳＥ:CORP2-SE023.wav,ON,OFF
+キャラアニメ:このイベント,24,1
+場所移動:■ＭＲＩ室,18,31,OFF,上,そのまま,上,なし,on
+●
+END_SCRIPT
+SCRIPT5,0
+場所移動:手術室（脱出１）,20,11,OFF,下
+●
+END_SCRIPT
+SCRIPT6,0
+●
+END_SCRIPT
+SCRIPT7,0
+●
+END_SCRIPT
+SCRIPT7,1
+●
+END_SCRIPT
+SCRIPT7,2
+●
+END_SCRIPT
+SCRIPT8,0
+●
+
+END_SCRIPT
+SCRIPT8,1
+●
+END_SCRIPT
+SCRIPT9,0
+ＳＥ:CORP2-SE023.wav,ON,OFF
+キャラアニメ:このイベント,24,1
+フェード:アウト,30,黒
+カットシーン:#01-02CS
+場所移動:■廊下２F,102,69,OFF,左,そのまま,そのまま,なし,on
+フラグ:2:「２階」の確認をした,ON,0
+●
+END_SCRIPT
+SCRIPT9,1
+ＳＥ:CORP2-SE023.wav,ON,OFF
+キャラアニメ:このイベント,24,1
+場所移動:■廊下２F,103,77,OFF,上,そのまま,そのまま,なし
+フラグ:97:竜司の音声を聞いた,OFF,0
+環境音:c01_12_ryuji_001.wav,OFF,ON,100
+●
+END_SCRIPT
+SCRIPT9,2
+ＳＥ:CORP2-SE023.wav,ON,OFF
+キャラアニメ:このイベント,24,1
+フェード:アウト,30,黒
+フラグ:63:特別エリアでの道案内完了,ON,0
+場所移動:■廊下２F,102,69,OFF,左,そのまま,そのまま,なし,on
+●
+END_SCRIPT
+SCRIPT9,3
+ＳＥ:CORP2-SE023.wav,ON,OFF
+キャラアニメ:このイベント,24,1
+場所移動:■廊下２F,103,77,OFF,上,そのまま,そのまま,なし
+●
+END_SCRIPT
+SCRIPT9,4
+ＳＥ:CORP2-SE023.wav,ON,OFF
+キャラアニメ:このイベント,24,1
+フェード:アウト,30,黒
+カットシーン:#14-01CS
+パーティー編成:ritsuko_light,ryuzi_normal,kurara_normal,懐中電灯,なし,なし
+場所移動:■廊下２F（暗）,103,68,OFF,左,そのまま,そのまま,なし,on
+フラグ:102:廊下が暗くなっているのを確認,ON,0
+●
+END_SCRIPT
+SCRIPT9,5
+ＳＥ:CORP2-SE023.wav,ON,OFF
+キャラアニメ:このイベント,24,1
+場所移動:■廊下２F（暗）,103,77,OFF,上,そのまま,そのまま,なし,on
+●
+END_SCRIPT
+SCRIPT10,0
+●
+
+END_SCRIPT
+SCRIPT10,1
+●
+END_SCRIPT
+SCRIPT11,0
+使用アイテム分岐:非常階段の鍵
+▼:ON
+文字表示:La porta e' adesso aperta.,,,なし,1,OFF,OFF,OFF,0,OFF
+フェード:アウト,30,黒
+カットシーン:#05-02CS
+フラグ:24:非常階段を確認した,ON,0
+カットシーン:#05-01CS
+アイテム取得:非常階段の鍵,OFF
+カットシーン:#06-01CS
+カットシーン:#06-02CS
+カットシーン:#06-03CS
+カットシーン:#06-04CS
+カットシーン:#06-05CS
+カットシーン:#06-06CS
+カットシーン:#06-07CS
+フラグ:27:MRI室に入った,ON,0
+場所移動:■ＭＲＩ室,18,27,OFF,そのまま,そのまま,上,なし,off
+●
+▼:OFF
+ＳＥ:CORP2-SE049.wav,ON,OFF
+文字表示:E' chiusa.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:La porta indica 'Uscita di emergenza'.,,,なし,100
+●
+分岐終了
+●
+END_SCRIPT
+SCRIPT11,1
+場所移動:■非常階段,3,7,OFF,右,そのまま,上,なし
+●
+END_SCRIPT
+SCRIPT11,2
+文字表示:Ritsuko:E' la strada sbagliata.,,,なし,100
+●
+END_SCRIPT
+SCRIPT11,3
+場所移動:■非常階段,3,7,OFF,右,そのまま,上,なし
+●
+END_SCRIPT
+SCRIPT11,4
+場所移動:■非常階段,3,7,OFF,右,そのまま,上,なし
+●
+END_SCRIPT
+SCRIPT12,0
+文字表示:There's a potted plant overturned on the ground.,,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT13,0
+●
+
+END_SCRIPT
+SCRIPT13,1
+●
+END_SCRIPT
+SCRIPT14,0
+●
+END_SCRIPT
+SCRIPT15,0
+●
+END_SCRIPT
+SCRIPT16,0
+フラグ:165:ＥＸ手術室を調べた,ON,0
+フラグ:160:ＥＸ開始,ON,0
+フラグ:28:エレベーターから靴を取った,OFF,0
+パーティー編成:tiyomi_normal,なし,なし
+●
+END_SCRIPT
+SCRIPT17,0
+フラグ:24:非常階段を確認した,ON,0,OFF
+●
+END_SCRIPT
+SCRIPT18,0
+診察カード:24
+●
+END_SCRIPT
+SCRIPT19,0
+フラグ:100:くららと竜司の関係を確認,ON,0
+フラグ:98:手術室サラリーマンを倒した,ON,0
+フラグ:104:４人で探索中,ON,0
+パーティー編成:ritsuko_normal,ryuzi_normal,kurara_normal
+●
+END_SCRIPT
+SCRIPT20,0
+フラグ:47:CT室に入った,ON,0
+●
+END_SCRIPT
+SCRIPT21,0
+フラグ:42:レントゲン室から脱出した,ON,0
+フラグ:2:「２階」の確認をした,ON,0
+●
+END_SCRIPT
+SCRIPT22,0
+●
+END_SCRIPT
+SCRIPT22,1
+場所移動:■非常階段,3,7,OFF,右,そのまま,上,なし
+●
+END_SCRIPT
+SCRIPT22,2
+文字表示:Ritsuko:E' la strada sbagliata.,,,なし,100
+●
+END_SCRIPT
+SCRIPT22,3
+場所移動:■非常階段,3,7,OFF,右,そのまま,上,なし
+●
+END_SCRIPT
+SCRIPT23,0
+アイテム取得:非常階段の鍵,ON
+●
+END_SCRIPT
+SCRIPT24,0
+●
+END_SCRIPT
+SCRIPT24,1
+フラグ:47:CT室に入った,ON,0
+フェード:アウト,30,黒
+カットシーン:#12-01CS
+場所移動:■ＭＲＩ室,25,13,OFF,下,そのまま,上,なし,on
+フラグ:99:智久を見た,ON,0
+フラグ:97:竜司の音声を聞いた,OFF,0
+環境音:c01_12_ryuji_001.wav,OFF,ON,100
+●
+END_SCRIPT
+SCRIPT24,2
+場所移動:■ＭＲＩ室,27,11,OFF,左,そのまま,上,なし,on
+●
+END_SCRIPT
+SCRIPT24,3
+場所移動:■ＭＲＩ室,27,11,OFF,左,そのまま,上,なし,on
+●
+END_SCRIPT
+SCRIPT25,0
+そこは手術や検査等の総合施術エリアだった。【SE（所々にある心電図計器音）、近付くとVOLアップ】
+ぺたぺたと裸足で歩くとCT室やMRI室への通路が見える。しかしやはり誰もおらず。
+ゴウンゴウンという機械の巨大な作動音だけが響き渡っていた。【SE（重機械・MRI）、近付くとVOLアップ】
+
+ＳＥ:CORP2-SE_K_TAORE001.wav,ON,OFF
+キャラアニメ:0,99,2,2
+キャラクター移動:0,→,ON,中,OFF
+文字表示:Ayame:Aaah!,,,VOICE/se/se_ayame/se_ayame_010.wav,100
+あやめは床に散乱したカルテを踏み、足を取られて転んでしまう。
+転んだ拍子に手が付いたのは、床に大量にぶちまけられた謎の黒い液体。
+どろりと粘性で気持ちが悪い。
+
+文字表示:Ayame:...!,,,なし,1,OFF,OFF,OFF,0,OFF
+フラグ:51:くるみが立ち去る,ON,0,OFF
+グラフィック変更:6,kurumi_normal,下,OFF,OFF,0,7,0,30,0,1
+イベント移動:6,1a1c181c1812,上,中,ON
+グラフィック変更:6,なし,下,OFF,OFF,0,7,0,30,0,3
+キャラアニメ:0,99,3,0
+キャラアニメ:0,7,0,1
+文字表示:Ayame:Cos'e' questa?! E' tutta nera e vischiosa...,Eww!,,なし,1,OFF,OFF,OFF,0,OFF
+あやめは手術着で手を拭き、立ち上がる。
+そのままぺたぺたと歩いて、総合施術エリアの扉を開けて外の廊下に出る。
+
+ＢＧＭ:CORP2-BGM008.wav,ON,ON,ON,100,100
+フラグ:50:２F黒いたまりを踏んだ,ON
+●
+END_SCRIPT
+SCRIPT25,1
+●
+END_SCRIPT
+SCRIPT25,2
+●
+END_SCRIPT
+SCRIPT26,0
+●
+END_SCRIPT
+SCRIPT27,0
+文字表示:Voce Maschile:Aprite questa dannataporta!,Forza! Che diavolo state facendo?! EHI! ,なし,100
+フラグ:325:竜二叫んだ,ON,0,OFF
+●
+END_SCRIPT
+SCRIPT27,1
+●
+END_SCRIPT
+SCRIPT28,0
+●
+END_SCRIPT
+SCRIPT29,0
+キャラアニメ:このイベント,24,1
+フェード:アウト,30,黒
+イベント移動:0,68376834,上,中,ON
+カメラ移動:0,6835,上,最速,ON
+フェード:イン,30,黒
+バストショット:bs_ayame_a02_a01.tga,左,OFF
+廊下に出ると、吹き抜けホールが目に入る。
+やはり煌々と電気がついているが人の気配がまったくしない。
+しかし暴動でも起こったかのように観葉植物や消火器などがなぎ倒されて、廊下一面には
+カルテ等の書類がぶちまけられていて異様な有様。
+
+文字表示:Ayame:(Just what is going on here?,Am I all alone?!),,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Excuse me! Did something happen here?,,,なし,1,OFF,OFF,OFF,0,OFF
+廊下の先に向かい、再び声を張り上げる。……が、やはり答える者はいなかった。
+カメラ移動:0,68346830,上,中,ON
+イベント移動:0,68346832,上,中,ON
+
+文字表示:Ayame:Oh! Questo e' il secondo piano.,,,なし,1,OFF,OFF,OFF,0,OFF
+廊下の壁の、『２Ｆ』のフロアプレートを見る。
+
+文字表示:Ayame:I don't know why| but...I feel like,I really shouldn't stay here.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:It looks like someone went to town on this place.,But looters| in a hospital? What a scary thought!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Anyway| right now I need to focus on getting out of here.,Hopefully then I'll start getting my memories back.,,なし,1,OFF,OFF,OFF,0,OFF
+ふらつく足で立ち上がり、決意するあやめ。
+フラグ:2:,ON
+●
+END_SCRIPT
+SCRIPT29,1
+●
+END_SCRIPT
+SCRIPT30,0
+●
+END_SCRIPT
+SCRIPT31,0
+場所移動:■手術室（脱出後）,19,10,OFF,下,そのまま,そのまま,なし
+●
+END_SCRIPT
+SCRIPT31,1
+文字表示:Voce Maschile:Aprite questa dannataporta!,Forza! Che diavolo state facendo?! EHI! ,なし,100
+モノローグ:La porta e sigillata dall'esterno con...,una piastra di ferro? Qualunque cosa sia stata usata|,rende impossibile aprirla dall'interno..,なし
+モノローグ:E' come se qualcuno volesse impedire,a qualcosa di uscire...,,なし
+文字表示:Ayame:Chi...c'e' qui dentro?,,,なし,100
+文字表示:Rimuovi la piastra?,,,なし,1,OFF,OFF,OFF,0,OFF
+
+選択肢:Rimuovila,Lascia perdere
+▼:Rimuovila
+環境音:c01_02_kangoshi_a_000.wav,OFF,OFF,0
+文字表示:Rimuovi la piastra di ferro.,,,なし,1,OFF,OFF,OFF,0,OFF
+フェード:アウト,30,黒
+カットシーン:#12-03CS
+パーティー編成:なし,なし,なし
+場所移動:■手術室BOSS戦,16,17,OFF,そのまま,そのまま,上,なし,on
+●
+▼:Lascia perdere
+●
+選択終了
+●
+END_SCRIPT
+SCRIPT31,2
+文字表示:Non vedo perche' tornare di nuovo qui.,,,なし,100
+●
+END_SCRIPT
+SCRIPT32,0
+文字表示:Si tratta di un distributore automatico di bevande.,Ci si puo' inserire| sia monete sia banconote da 1|000-yen.,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT33,0
+文字表示:E' un distributore automatico di succhi.,Si possono inserire solo monete.,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT34,0
+ふらつく足取りのなか、壁の案内に従って出口に向かって南へ進む。
+『１Ｆ』へ下りるための階段は、この二階の南にある階段へ向かうしかなかった。
+（※右上の階段は防火扉が下りており封鎖され、エレベーターはいくら呼んでも来ない）
+
+エレベーターボタンを調べると▼ランプが点灯。
+しかしいつまで経ってもエレベーターは１Fから上がってこない。
+
+文字表示:Ayame:E' strano. Il bottone e' acceso...,,,なし,1,OFF,OFF,OFF,0,OFF
+（二回目）
+
+●
+END_SCRIPT
+SCRIPT34,1
+文字表示:Ayame:Allora perche' l'ascensore non arriva? C'e' forse,qualcosa che blocca la porta sotto?,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT35,0
+文字表示:There's a potted plant overturned on the ground.,,,なし,1,OFF,OFF,OFF,0,OFF
+●
+END_SCRIPT
+SCRIPT36,0
+●
+END_SCRIPT
+SCRIPT37,0
+西階段を上ると、二階の廊下は変わらず煌々と灯りが点いている。
+手術室横には『配電室』、『管理人室』があるがやはり鍵がかかっており入れない。
+
+目標の『非常口』まわりの廊下は、照明も真っ暗。お経と線香の匂いが香り出す。
+隣にあるMRI室の機械の音がうっすらと響いている。（【SE（重機械・MRI）、VOL極小】）
+
+文字表示:Ayame:It's pitch black in here.,Has the building lost power?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:I smell incense again...,,,なし,1,OFF,OFF,OFF,0,OFF
+出口の扉は閉まっていたが、何度もノブを回しているとガチャリと開いた。
+外に出ると激しい雷雨。激しすぎて目が開けていられない。
+フラグ:25:非常口を出た,ON
+場所移動:非常階段,3,7,OFF,右,そのまま,そのまま,なし
+●
+END_SCRIPT
+SCRIPT37,1
+●
+END_SCRIPT
+SCRIPT38,0
+文字表示::[SE: Faintly audible sound of the machinery in the MRI room next door (SE: Heavy Machinery (MRI)| Vol: Very Low)],,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::The moment I returned to the hallway| I found myself,face-to-face with a woman dressed in bright red.,In her hand| she held a needle-tipped syringe.,なし,1,OFF,OFF,OFF,0,OFF
+
+文字表示::Donna:,Aaaaaaaaaaaaaaaaaaaah!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Girl:Aaaaaaaaaaaaaaaaaaaah!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Eeeek!,,,なし,1,OFF,OFF,OFF,0,OFF
+廊下の角に追い詰められたあやめ。
+【■※回り込むのが早く逃げられない。掴まるとイベント進行】
+
+文字表示:Girl:Aaaaaaaaaaaaaaaaaaaah!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Aah... Aaaaah!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:With tremendous force| the woman thrust,the syringe she held in her hand direcly,into my arm.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:As the needle went in| I noticed the sticker on the,outside which read| 'For Disposal.' This wasn't,a proper dose of anything; it was clinical waste!,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Ahh... Aaaaah!,,,なし,1,OFF,OFF,OFF,0,OFF
+ガシャンと女を突き飛ばし、自分も尻餅をつくあやめ。
+尻餅をついたまま、
+
+文字表示:Ayame:V-Va tutto bene?,,,なし,1,OFF,OFF,OFF,0,OFF
+よろめいた女は、
+『かゆいかゆいかゆいかゆいかゆい』と、けたたましく叫びながらあやめに飛び掛る。
+【■※動けるが、逃げようとしても必ず掴まる。掴まると進行】
+
+立ち上がって逃げようとするが、あやめはあえなく飛び掛られてうつぶせに転ぶ。
+馬乗りになった女は注射器で刺そうとする。『とけるとけるとけるとける』
+相変わらず錯乱しながら。
+あやめはその手首を何とか掴んで、力比べになるが……
+
+文字表示:Ayame:Urgh...ggh...,Guh! Aaaaah!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:I grabbed hold of the woman's arm and resisted,as best I could| but the needle continued to inch,gradually closer toward my eye...,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:(God| help me! I... I can't--),,,なし,1,OFF,OFF,OFF,0,OFF
+『注射イヤアアァァァァァ！』気狂いの声で叫びながら目に向けて注射器を振り下ろした時、
+文字表示::The woman was suddenly bathed in light from,a flashlight beam that originated farther down,the hall. With a violent shriek| she jumped back.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:*:Go away! Get lost!,,,なし,1,OFF,OFF,OFF,0,OFF
+廊下から、ライトの持ち主の声がする。
+『イイイィィィィ！！！』人の声ではない、耳を切り裂く様な金切り声を上げて
+【■※中年女性・律子、画面内へ入ってくる】
+赤い女は飛び掛って行くが、ライトの主は必死に光を向けて抵抗する。
+
+文字表示:*:Shoo!,,,なし,1,OFF,OFF,OFF,0,OFF
+『ヒギィィィ！！』
+
+飛び掛ったところを弾かれるように床に転がった赤い女は、
+やがて通路の暗闇へ、犬のように四足で走って逃げてゆく。
+
+あやめは肩で荒い息をしながら倒れたまま。
+静寂が戻り、辺りにはあやめとライトの主の荒い呼吸が響き渡る。
+文字表示::*:,*pant* *pant*,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:*:*pant* *pant*,Stai bene? Tu sei... umana| giusto?,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:*pant* *pant*,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:*:Sembrano essere deboli alla luce.,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:L'utilizzatrice della torcia era una donna, di mezza eta' un po' robusta| con una grande macchina,fotografica appesa ad una spalla.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Text:Just like Ayame| she was dressed,in a surgical gown.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:*:ARE you okay? Come on| now. Get up.,,,なし,1,OFF,OFF,OFF,0,OFF
+女性は、腰を抜かしたあやめに手を差し伸べる。
+
+文字表示:*:If you're in the dark| they'll come for you again.,,,なし,1,OFF,OFF,OFF,0,OFF
+あやめを立たせた女性は、
+電気の点いたＭＲＩ室を振り返り、
+
+文字表示:*:Come over here| where it's light. We can introduce,ourselves inside.,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:A-All right.,,,なし,1,OFF,OFF,OFF,0,OFF
+二人は、早足に近くのＭＲＩ室に入った。
+●
+END_SCRIPT
