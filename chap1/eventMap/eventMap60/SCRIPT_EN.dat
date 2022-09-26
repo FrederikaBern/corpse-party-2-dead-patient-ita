@@ -48,8 +48,8 @@ SCRIPT10,1
 END_SCRIPT
 SCRIPT10,2
 文字表示:Ritsuko:Non farlo! Se te ne andrai| non ritorernai, piu'. Dico sul serio! E' questo quello che vuoi veramente?,,なし,1,OFF,OFF,OFF,0,OFF
-選択肢:Si,No
-▼:Si
+選択肢:Si',No
+▼:Si'
 文字表示:Ayame:(Mi dispiace| Ritsuko!),,,なし,1
 フラグ:160:ＥＸ開始,ON,0
 場所移動:■廊下１Ｆ,85,60,OFF,下,そのまま,上,なし,on
@@ -62,8 +62,8 @@ SCRIPT10,2
 END_SCRIPT
 SCRIPT10,3
 文字表示:Lasciare la stanza?,,,なし,100
-選択肢:Si,No
-▼:Si
+選択肢:Si',No
+▼:Si'
 文字表示:Ayame:(Mi dispiace| Ritsuko!),,,なし,1
 フラグ:160:ＥＸ開始,ON,0
 場所移動:■廊下１Ｆ,85,60,OFF,下,そのまま,上,なし,on

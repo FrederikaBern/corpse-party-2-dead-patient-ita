@@ -283,8 +283,8 @@ END_SCRIPT
 SCRIPT19,0
 文字表示:C'e' un computer qui| usato per gestire,un letto mobile..,,なし,1,OFF,OFF,OFF,0,OFF
 文字表示:Premere l'interruttore?,,,なし,1,OFF,OFF,OFF,0,OFF
-選択肢:Si,No
-▼:Si
+選択肢:Si',No
+▼:Si'
 ＳＥ:CORP2-SE111.wav,ON,OFF
 キャラアニメ:13,74,1,0
 ローカルフラグ:32:ベットを起こした,ON,0

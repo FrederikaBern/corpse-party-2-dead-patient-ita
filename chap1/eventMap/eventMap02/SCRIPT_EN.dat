@@ -115,7 +115,7 @@ SCRIPT13,0
 キャラアニメ:14,18,3
 時間待ち:95,CLOSE
 文字表示:???:(Cosa... sta succedendo.),,,VOICE/c01_01/c01_01_ayame/c01_01_ayame_002.wav,100
-文字表示:???:(Cosa mi sta succedendo? Do-dove... sono?!),,,VOICE/c01_01/c01_01_ayame/c01_01_ayame_003.wav,100
+文字表示:???:(Cosa mi sta succedendo? Do-Dove... sono?!),,,VOICE/c01_01/c01_01_ayame/c01_01_ayame_003.wav,100
 カメラ移動:0,140f,上,遅い,ON
 時間待ち:10,CLOSE
 ＳＥ:CORP2-SE035.wav,ON,OFF
@@ -130,7 +130,7 @@ SCRIPT13,0
 音声再生:VOICE/c01_01/c01_01_ayame/c01_01_ayame_004.wav,0,100
 時間待ち:100,CLOSE
 フェード:イン,7,白
-文字表示:???:C-c'e' qualcuno li'?!,,,VOICE//c01_01/c01_01_ayame/c01_01_ayame_005.wav,100
+文字表示:???:C-C'e' qualcuno li'?!,,,VOICE//c01_01/c01_01_ayame/c01_01_ayame_005.wav,100
 キャラアニメ:14,18,5
 文字表示:???:Scusatemi!,,,VOICE//c01_01/c01_01_ayame/c01_01_ayame_006.wav,100
 拘束され身動きの取れない主人公は徐々にパニックになる。
@@ -201,7 +201,7 @@ SCRIPT13,0
 キャラアニメ:14,68,5,0
 
 文字表示:???:*pant* *cough* *cough* *gag*,,,VOICE/c01_01/c01_01_ayame/c01_01_ayame_018.wav,100
-文字表示:???:(L-la mia testa e' cosi confusa...,tutto quello che posso fare per rimanere cosciente e'...),,なし,100
+文字表示:???:(L-La mia testa e' cosi confusa...,tutto quello che posso fare per rimanere cosciente e'...),,なし,100
 キャラアニメ:14,68,6,0
 ＳＥ:CORP2-SE_K_NUNO002.wav,ON,OFF
 時間待ち:10,CLOSE

@@ -26,8 +26,8 @@ SCRIPT1,1
 END_SCRIPT
 SCRIPT2,0
 文字表示:Desideri vedere il prologo?,(La seguente traduzione e' stata realizzata,da Beyond The Horizon),,,なし,1,OFF,OFF,OFF,0,OFF
-選択肢:Si,No
-▼:Si
+選択肢:Si',No
+▼:Si'
 場所移動:プロローグ,3,3,OFF,そのまま,そのまま,上,なし,off
 ●
 ▼:No

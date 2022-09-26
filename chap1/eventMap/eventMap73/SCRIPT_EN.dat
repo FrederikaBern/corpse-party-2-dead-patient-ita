@@ -123,7 +123,7 @@ SCRIPT8,1
 ●
 END_SCRIPT
 SCRIPT9,0
-文字表示:C'e' un grafico che gira sul monitor| pero' non e' molto,chiaro cosa vogliano dire tutti quei numeri,intorno ad esso.,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:C'e' un grafico che gira sul monitor| pero',non e' molto chiaro cosa vogliano dire,tutti quei numeri intorno ad esso.,なし,1,OFF,OFF,OFF,0,OFF
 ●
 END_SCRIPT
 SCRIPT10,0
@@ -142,8 +142,8 @@ END_SCRIPT
 SCRIPT12,0
 文字表示:C'e' una cartella clinica con una nota allegata ad essa.,C'e' il nome e la fotografia di un paziente.,,,なし,1,OFF,OFF,OFF,0,OFF
 文字表示:Vuoi leggere la cartella clinica?,,,なし,1,OFF,OFF,OFF,0,OFF
-選択肢:Si,No
-▼:Si
+選択肢:Si',No
+▼:Si'
 時間待ち:2,CLOSE
 フェード:イン,30,白
 ＢＧＭ:CORP2-BGM010-2.wav,OFF,ON,ON,100,100
@@ -158,7 +158,7 @@ SCRIPT12,0
 文字表示:Ayame:Ayame... Itou...,,,なし,1
 時間待ち:40,OPEN
 フェード:イン,3,白
-文字表示:Ayame:Ayame...? Si| giusto!,Questo e' il mio nome!,,VOICE/se/se_ayame/se_ayame_005.wav,100
+文字表示:Ayame:Ayame...? Si'| giusto!,Questo e' il mio nome!,,VOICE/se/se_ayame/se_ayame_005.wav,100
 時間待ち:20,CLOSE
 ＳＥ:CORP2-SE017.wav,ON,OFF
 時間待ち:2,CLOSE

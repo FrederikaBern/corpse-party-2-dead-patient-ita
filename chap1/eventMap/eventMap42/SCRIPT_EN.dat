@@ -60,7 +60,7 @@ SCRIPT4,0
 ●
 END_SCRIPT
 SCRIPT5,0
-文字表示::NPCs: Ritsuko Satomi| Thrown Girl| Mother| Hospital Patients,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示::NPCs: Ritsuko Satomi| Thrown Girl| Mother| Hospital Sunos,,,なし,1,OFF,OFF,OFF,0,OFF
 文字表示::[Place: Inside MRI],[SE: Heavy Machinery (MRI) Mid Volume],,なし,1,OFF,OFF,OFF,0,OFF
 文字表示::[SE: Heavy Machinery (MRI) Mid Volume],It was a very orderly| well-lit room. After urging Ayame,to sit down| Ritsuko locked the door| then turned to face her.,なし,1,OFF,OFF,OFF,0,OFF
 
@@ -224,8 +224,8 @@ SCRIPT7,0
 文字表示:There's a stack of patient records here.,,,なし,1,OFF,OFF,OFF,0,OFF
 文字表示:And among them| a note.,,,なし,1,OFF,OFF,OFF,0,OFF
 文字表示:Read it?,,,なし,1,OFF,OFF,OFF,0,OFF
-選択肢:Si,No
-▼:Si
+選択肢:Si',No
+▼:Si'
 文字表示:[The password to exit in case of emergency is,in the leftmost drawer on the south side.],,なし,1,OFF,OFF,OFF,0,OFF
 ●
 ▼:No
@@ -252,7 +252,7 @@ SCRIPT12,0
 文字表示:Text:C'e' una cartella clinica con una nota,allegata ad essa. C'e' una fotografia e un nome.,,,なし1,OFF,OFF,OFF,0,OFF
 文字表示:Ayame:Questa... Questa sono io!,,,なし,1,OFF,OFF,OFF,0,OFF
 文字表示:Ayame:Ayame... Itou...,,,なし,1,OFF,OFF,OFF,0,OFF
-文字表示:Ayame:Ayame...? Si| giusto!,Questo e' il mio nome!,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:Ayame...? Si'| giusto!,Questo e' il mio nome!,,なし,1,OFF,OFF,OFF,0,OFF
 文字表示:Ayame:Il mio nome e' Ayame Itou.,Finalmente ricordo!,,なし,1,OFF,OFF,OFF,0,OFF
 文字表示::Feeling nervous| Ayame stepped out of the room.,[Dev Note.],,なし,1,OFF,OFF,OFF,0,OFF
 ●
@@ -271,7 +271,7 @@ SCRIPT13,0
 
 キャラアニメ:14,18,3
 文字表示:Ayame:(Cosa... sta succedendo.),,,なし,1,OFF,OFF,OFF,0,OFF
-文字表示:Ayame:(Cosa mi sta succedendo? Do-dove... sono?!),,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:(Cosa mi sta succedendo? Do-Dove... sono?!),,,なし,1,OFF,OFF,OFF,0,OFF
 文字表示:Text:Sforzo il mio cervello per cercare di capire la situazione|, dove sono e come sono arrivata fin qui.,,なし,1,OFF,OFF,OFF,0,OFF
 文字表示:Text:Ma non importa quanto ci provi|, non riesco a ricordare nulla.,,なし,1,OFF,OFF,OFF,0,OFF
 ぐっと上半身を起こそうとするが
@@ -281,7 +281,7 @@ SCRIPT13,0
 キャラアニメ:14,18,4
 キャラアニメ:14,18,4
 時間待ち:30,CLOSE
-文字表示:Ayame:C-c'e' qualcuno li'?!,,,なし,1,OFF,OFF,OFF,0,OFF
+文字表示:Ayame:C-C'e' qualcuno li'?!,,,なし,1,OFF,OFF,OFF,0,OFF
 文字表示:Ayame:Scusatemi!,,,なし,1,OFF,OFF,OFF,0,OFF
 拘束され身動きの取れない主人公は徐々にパニックになる。
 時間待ち:30,CLOSE
